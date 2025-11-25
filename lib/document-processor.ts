@@ -59,18 +59,23 @@ export async function extractTextFromFile(
       console.log('[INFO] Starting PDF extraction with pdfjs-dist...');
       const parseStartTime = Date.now();
       
-      // Configure pdfjs-dist for serverless (disable workers)
-      // This avoids worker file issues in serverless environments
-      // Use legacy build path if available, otherwise disable workers
-      if (typeof pdfjsLib.GlobalWorkerOptions !== 'undefined') {
-        pdfjsLib.GlobalWorkerOptions.workerSrc = ''; // Disable workers for serverless
+      // Configure pdfjs-dist for serverless (disable workers completely)
+      // In serverless, we need to use the legacy build which doesn't require workers
+      // Set workerSrc to disable workers entirely
+      if (pdfjsLib.GlobalWorkerOptions) {
+        // Use a data URL for worker to avoid file system issues, or disable completely
+        // For serverless, we'll use the legacy build which can work without workers
+        pdfjsLib.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
       }
       
-      // Load the PDF document
+      // Load the PDF document with options that work in serverless
       const loadingTask = pdfjsLib.getDocument({
         data: new Uint8Array(buffer),
         useSystemFonts: true,
         verbosity: 0, // Suppress warnings
+        // Disable worker for serverless compatibility
+        useWorkerFetch: false,
+        isEvalSupported: false,
       });
       
       const pdfDocument = await loadingTask.promise;

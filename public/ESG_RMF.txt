@@ -1,0 +1,1254 @@
+﻿Golden Gate Ventures – Fund IV – ESG Risk Management Framework /   
+  
+
+
+
+
+
+________________
+
+
+Ownership and Version Control
+Golden Gate Ventures treats the ESG Risk Management Framework as a live document, subject to updates and improvements as ESG practices are implemented. As such, the document is updated on a rolling basis by the ESG Manager and the investment and operations teams as practices are refined. The document is also subject to annual reviews by the Investment Committee and ESG Manager, to ensure that the ESG strategy is in line with the Golden Gate Ventures’ overall direction. To ensure that these changes are documented and that all parties are operating on the same version, updates to the framework are documented on this page. 
+Document Information
+Document Name
+	ESG Risk Management Framework
+	Version
+	0.5
+	Effective Date
+	3 April 2024 
+	
+
+Revision History
+Version
+	Date of revision 
+	ESG Risk Management Framework
+	0.1
+	9 Feb 2024 
+	First draft. 
+	0.2
+	27 Feb 2024 
+	Completed all sections to meet AIIB’s ESG requirements and updated based on AIIB’s feedback. 
+	0.3
+	7 March 2024
+	Added the first draft of the ESG Reporting Requirements and made edits to the Measurement section. 
+	0.4
+	19 March 2024
+	Updated based on AIIB’s feedback.  
+	0.5
+	3 April 2024
+	Updates made to ESG reporting requirements based on AIIB’s feedback.
+	0.6
+	5 June 2024
+	Updated clause 5 of the Exclusion List to include nuclear and oil power generation. 
+	0.7
+	20 Jan 2025
+	Minor changes made for consistency in preparation for staff training. 
+	
+
+________________
+
+
+Contents
+
+
+1        Responsible Investment Strategy        3
+2        Approach to risk management        4
+2.1        ESG Risk Profile        4
+2.2        ESG Policy        4
+3        Measurement        9
+4        Procedures        11
+4.1        Screening        11
+4.2        Due diligence        12
+4.3        IC Approval        14
+4.4        Monitoring        15
+4.5        Exit        16
+5        Roles and Responsibilities        18
+Appendix A        Exclusion List        21
+Appendix B        Paris Alignment        24
+Appendix C        Environmental & Social Risk Categorisation Methodology        28
+Appendix D        Golden Gate Ventures’ Consumer Protection Principles        31
+Appendix E        ESG DD Questionnaire        32
+Appendix F        ESG DD Template for Investment Memos        40
+Appendix G        ESG Action Plan Template        41
+Appendix H        ESG Legal Covenants        42
+Appendix I        ESG Flag Report        44
+Appendix J        Terms of Reference for External Consultants        45
+Appendix K        ESG Reporting Requirements        47
+
+
+________________
+
+
+1. Responsible Investment Strategy 
+Golden Gate Ventures (“GGV”) is a Southeast Asian venture capital firm headquartered in Singapore, with offices in Indonesia and Vietnam. Founded in 2011, we have launched four funds with US$250M assets under management. Over the last thirteen years, we have made 90+ investments (Q1, 2024). 
+We launched Golden Gate Ventures Cattlehorn, L.P. (“the Fund”, “Fund IV”) in 2021, with a focus on applying our data driven approach to provide early-stage companies with their first institutional cheque. We select Seed to Series A tech-enabled platforms from Southeast Asia, with a focus on the Southeast Asian Golden Triangle of Singapore, Indonesia, and Vietnam. We aim to make ~30 investments with this fund, targeting a fund size of US$120M. Existing investments have been in the FinTech, EduTech, ClimateTech, and AI sectors. As a part of this fund, we aim to take our principles around responsible investment and structure our efforts to manage risks and drive positive impact. 
+At Golden Gate Ventures, we aim to create sustainable long-term returns for investors with a lasting, positive impact for all stakeholders. As one of the earliest VC funds in Southeast Asia, we have not only invested in companies fuelling the region’s growth, but also helped build communities and ecosystems in the markets that we operate in. Our long-term view allows us to take a collaborative, open approach to managing our various stakeholders – portfolio companies, investors, peers, employees, and other players in the ecosystem. 
+We believe that Environmental, Social, and Governance (“ESG”) risk management is a powerful tool for a transformative investor. Helping our portfolio companies manage ESG risk and identify opportunities in a structured manner can improve their resilience and ability to scale. Giving appropriate, formal consideration to ESG topics is thus an important catalyst for creating value for our firm, our portfolio companies, and the Southeast Asian ecosystem at large.
+Principles
+We have always applied these three principles in the way we source deals and engage with our founders. However, by developing this framework, we are setting a new, robust standard for ourselves, institutionalising these principles throughout all stages of our investment cycle and our operations. In the long term, it is our ambition to apply the learnings we gain from structuring our efforts with Fund IV to the portfolio companies from our previous funds, and to continuously improve this document. 
+We are committed to investing responsibly. We will integrate ESG risks and opportunities at all stages of the fund lifecycle, from LP onboarding, to investing, harvesting, and exiting. We are certain that the assessment and management of ESG considerations will lead to better decisions throughout the firm and ultimately superior financial performance.
+We are committed to fostering impact. We understand the importance of investing in communities and giving back to the ecosystem. We will drive impact by investing in companies and supporting initiatives that are in line with the 17 United Nations Sustainable Development Goals. 
+We are committed to measuring and quantifying our positive contributions and adverse externalities. We recognise that only with an appropriate measurement and assessment framework can we truly assess our impact. We are aligned with international standards adopted by leading stakeholders in the space, such as the IFC Performance Standards and the Joint MDB Approach for Paris Alignment. We acknowledge that various portfolio companies and stakeholders are at various stages of growth and may require more support to implement and adopt ESG considerations to align with our standards.
+________________
+
+
+2. Approach to risk management
+   1. ESG Risk Profile
+To set the foundation of our ESG policy, we provide context on the ESG risk profile of the companies in our investment universe. Investing in early-stage technology-enabled companies, the business activities of these companies mostly have minimal or no adverse ESG impacts. Based on our existing investments and our experience with past funds, we anticipate an average portfolio risk level of Category C[1]. As early-stage companies, they typically have small teams and limited scale of operations. Our tech focus further reduces the exposure to real economy risks. For portfolio companies where this is not the case, or when portfolio companies scale and evolve, we ensure particular scrutiny on the action plan and monitoring efforts.
+Given our investee companies share these similar characteristics, certain ESG risks are more common in our investment universe. Identifying these risks helps us set up best practices and build capacity to mitigate these risks. Based on our existing portfolio companies, the most material ESG topics include:
+* Labour practices
+* Consumer Harm
+* Data protection, privacy, and cyber-security
+* Corporate governance 
+As a baseline, we ensure that all these topics are addressed for our investees. During the investment process, we make a focused effort to identify the risk mitigation and value creation levers that are most material to each investee. 
+   2. ESG Policy
+To adequately address the ESG risks of its transactions, GGV engages with portfolio companies in Golden Gate Ventures Cattlehorn, L.P. (the “Fund” or “Fund IV) to mitigate negative environmental and social effects of their business activities and improve their corporate governance practices. This ESG Policy (“the Policy”) lays the base for this integrated ESG risk management approach.
+Objective
+The purpose of this Policy is to define the Fund’s standards for ESG risk management, to outline the requirements for its portfolio companies, and to share a high-level overview of the risk identification, assessment, management, and monitoring procedures. 
+Scope
+This Policy extends to all transactions under Golden Gate Ventures Cattlehorn, L.P., which targets early-stage companies in Southeast Asia. The Fund commits to applying this Policy consistently across all investment and management activities related to this Fund. Staff involved in Fund affairs is expected to know the Policy and act accordingly.
+Standards
+To ensure that its principles and standards are applied consistently, the Fund applies ESG management practices in all stages of the investment cycle (see Application section). We also encourage portfolio companies to comply with the international good practice standards detailed in this section, and to go beyond this by focusing on which standards and sustainability activities add strategic value to their business practice.
+Mandatory standards
+* The Fund does not provide financing to companies with activities or characteristics mentioned on the Fund’s Exclusion List (Appendix A). The Fund excludes companies with activities: 
+   * included in AIIB’s Environmental and Social Exclusion List (“ESEL”); 
+   * included in Harmonized EDFI Exclusion List; 
+   * included in the Joint MDB List of Activities Considered Universally Not Aligned with the Paris Agreement; 
+   * that warrant a Category A risk categorisation, as they are likely to have significant adverse ESG impacts that are irreversible, cumulative, diverse, or unprecedented, and either cannot be mitigated or only at significant costs; 
+   * that trigger AIIB’s Operational Policy on International Relations (“OPIR”); 
+   * that trigger AIIB’s Environmental and Social Standard 2: Involuntary Resettlement (“ESS 2”); 
+   * that trigger AIIB’s Environmental and Social Standard 3: Indigenous Peoples (“ESS 3”). 
+* At a minimum, the Fund requires portfolio companies to comply with the legal and regulatory ESG requirements applicable in the jurisdictions in which portfolio companies operate.
+* The Fund applies the AIIB Environmental and Social Framework (“AIIB ESF” or “ESF”) and AIIB’s Interim Guidance Note on ESG Assessment for Venture Capital. 
+* The Fund applies AIIB’s Methodology for Assessing the Alignment of AIIB Investment Operations with the Paris Agreement to ensure that its portfolio is Paris-aligned (Appendix B). 
+* The Fund operates a Grievance Redress Mechanism (“GRM”) and links to AIIB’s Project Affected People’s Mechanism (“PPM”) Policy where affected parties may raise relevant ESG-related concerns. Golden Gate Ventures is responsible for ensuring that each portfolio company operates its own GRM[2] and links to AIIB’s PPM. 
+Supplementary standards
+* To complement the ESF, in assessing ESG risks across the investment lifecycle, the Fund also draws reference from the internationally recognised IFC Performance Standards (“IFC PS”) and IFC Corporate Governance Methodology, as well as CDC & FMO’s[3] Responsible Venture Capital Good Practice Note. This enhances the robustness of ESG assessment and risk management, while ensuring alignment with internationally recognised standards. 
+* Golden Gate Ventures’ Consumer Protection Principles (see Appendix D). 
+To be eligible for financing, a prospective investee must not engage in any activities on the exclusion list and comply with all applicable ESG legal and regulatory requirements in their operating regions. However, it is expected that not every company will be in compliance with our standards for ESG practices by the time a transaction closes. In such cases, the Fund and the portfolio company will agree on an Action Plan defining the corrective measures to bring the portfolio company into compliance within an achievable timeframe. Prospective investees may be required to meet key standards, such as the provision of the GRM and PPM or alignment with the Paris agreement, before capital is committed. In general, the Fund takes a realistic approach and requires portfolio companies to improve operations through means that are appropriate to the nature and scale of their operations and commensurate with the ESG risk associated with their operations. 
+Risk classification 
+The Fund applies a risk based ESG management approach across its investment lifecycle to assess, mitigate and manage its ESG risks. To determine the ESG risk level of a portfolio company, the Fund follows the AIIB’s Risk Categorisation method set out in the ESF, which has been adapted for use in a VC environment[4]. Refer to Section 4: Procedures to understand the instruments in place to operationalise these risk classifications at various stages of the investment cycle. 
+The categories are defined as follows: 
+* Category C. Portfolio company business activities are likely to have minimal or no adverse ESG impacts. Minimal impacts can be successfully mitigated by the portfolio company with well-known and cost-effective mitigation measures. The Fund prepares an ESG risk analysis as part of the due diligence process. Corresponds to AIIB Category C. 
+* Category B. Portfolio company business activities have a limited number of potentially adverse ESG impacts. Impacts are not unprecedented, few if any are irreversible or cumulative, and can be successfully managed using good practice in an operational setting. The Fund prepares an ESG risk analysis and works with the portfolio company to manage risks using an Action Plan. Corresponds to AIIB Category B. 
+* Category B+. Portfolio company business activities a have limited number of potentially adverse ESG impacts. Impacts are not unprecedented but may pose higher risk[5], few if any are irreversible or cumulative, and can be successfully managed using good practice in an operational setting with external support. The Fund prepares an ESG risk analysis and tasks an external specialist to conduct an in-depth due diligence of ESG risks in line with the Terms of Reference for External Consultants (Appendix J), followed by an Action Plan. Corresponds to AIIB Category B. 
+* Category A. Portfolio company business activities are likely to have significant adverse ESG impacts that are irreversible, cumulative, diverse, or unprecedented. These impacts may affect an area larger than the sites or facilities subject to physical works. Impacts may be permanent or temporary in nature and either cannot be mitigated or only at significant costs. Investments of this nature form part of the Fund’s Exclusion List (Appendix A). Corresponds to AIIB Category A. 
+In the case that the portfolio company is a financial intermediary (“FI”), with business activities that involve investments in financial institutions or through delivery mechanisms involving financial intermediation, the above categories also apply to its portfolio. The risk category of the FI is based on its exposure and risk management systems, as defined below:
+* Category FI–C: FI’s existing or proposed portfolio includes financial exposure to business activities that predominantly have minimal or no adverse environmental or social impacts. 
+* Category FI–B: FI’s existing or proposed portfolio is comprised of, or is expected to be comprised of, business activities that have potential limited adverse environmental or social risks or impacts that are few in number, generally site-specific, largely reversible, and readily addressed through mitigation measures; or includes a very limited number of business activities with potential significant adverse environmental or social risks or impacts that are diverse, irreversible, or unprecedented. 
+* Category FI–A: FI’s existing or proposed portfolio includes, or is expected to include, substantial financial exposure to business activities with potential significant adverse environmental or social risks or impacts that are diverse, irreversible, or unprecedented. 
+Category FI-A companies are excluded from investment. Category FI-B and Category FI-C companies are required to follow the requirements and exclusions of Golden Gate Ventures’ ESG Risk Management Framework, including building a process to systematically identify, manage, and mitigate the ESG risks tied to their portfolio. For further detail on risk classification, refer to Appendix C. 
+Application 
+To ensure a consistent application of ESG management across operations, the Fund embeds this Policy throughout the investment cycle. Consequently, GGV commits to the following tasks that are developed in accordance with the identified relevant standards:
+* Screening potential transactions against the Exclusion List to determine eligibility for investment.
+* Preparing the required ESG documentation and assessing the company’s performance against the fund’s ESG requirements in due diligence.
+* Classifying potential portfolio companies on the ESG risk level triggered by the companies’ activities.
+* Considering the findings and recommendations from ESG due diligence activities as a key factor in the Investment Committee’s decision on potential transactions.
+* Defining mitigation measures to avoid or minimize ESG-related risk and adverse impact to a level acceptable to the Fund’s standards and risk appetite.
+* Agreeing with portfolio companies on an applicable ESG Action plan that clearly describes measures to mitigate the ESG risk of companies’ activities and to bring the company into compliance with the Fund’s standards.
+* Incorporating ESG clauses in legal agreements, as required.
+* Monitoring portfolio companies’ compliance with the Fund’s standards in general, the activities from the mutually agreed ESG Action Plan during the holding period, and relevant key performance indicators.
+* Reassessing ESG risks and opportunities and adjusting ESG Action Plan when a portfolio company passes certain thresholds or before subsequent stages of funding.
+* Supporting the portfolio company in demonstrating to potential investors how ESG risks have been managed and/or mitigated and opportunities realised.
+* To the extent possible, provide for good ESG practices to remain in place following exit.
+In case an eligible portfolio company is in a state of non-compliance with respect to the Policy, GGV takes all reasonable efforts to (i) assert and enforce any right of the Fund to require the portfolio company to comply with the contractually agreed Action Plan, including but not limited to, any available action for specific performance or similar remedy, and/or (ii) dispose of the Fund’s investment in this portfolio company on commercially reasonable terms, taking into account liquidity, market constraints and fiduciary responsibilities. 
+________________
+
+
+3. Measurement 
+Golden Gate Ventures places an emphasis on collecting and tracking ESG metrics to ensure that portfolio companies can be effectively monitored. The section below provides an overview of the approach to measurement and the reporting commitments to our LPs.  
+Approach
+Golden Gate Ventures focuses on measuring and tracking positive and negative ESG impact through the measurement process. The Fund plans to establish key indicators that generally apply to all investees, covering topics such as economic activity, jobs supported, breakdown of employees by seniority, job scope, and gender. Other topics, such as GHG emissions, waste management, resource use (including water and energy), and impacts on local communities are tracked for investees where material. 
+In line with best practices, Golden Gate will follow standards used in the development and impact space, making best effort to align with initiatives such as the SDGs, the Joint Impact Indicators, and IRIS+. 
+The Fund engages investees early in the investment process on measurement. If it emerges during the due diligence process that the investee may not have sufficient capacity to measure and report ESG metrics, building reporting capacity becomes part of the Action Plan. We then engage with investees on an ongoing basis to help them report metrics to the Fund on a semi-annual (twice a year) cadence. The Fund provides investees with excel templates to smoothen the reporting process. Refer to Appendix K ESG Reporting Requirements for a full list of reporting requirements. 
+Reporting to LPs
+* ESG Report – On a semi-annual basis, Golden Gate Ventures reports ESG metrics to the relevant LPs. This report includes: 
+   1. Overview of any reviews or upcoming changes to ESG Risk Management Framework and to ESG Strategy in general
+   2. Breakdown of the portfolio by applicable sectors, ESG risk categories
+   3. Overview of ESG performance and monitoring engagements with each investee company 
+   4. Progress on any ESG Action Plans
+   5. Significant ESG incidents or any other serious issues
+   6. List of ESG grievances (if any) received by GGV/investee companies
+   7. General investee indicators (employment data split by type of employment seniority, role, and gender; economic activity broken down by local procurement) 
+   8. Specific investee indicators, where material (climate indicators; physical activity and resource use indicators; technological disruptions; etc.) 
+* GHG Report – On a semi-annual basis, Golden Gate Ventures reports its portfolio emissions to the relevant LPs. GHG data will be collected by prioritizing data collection from investees with a significant carbon footprint. Emissions reporting methodology is aligned in consultation with relevant LPs. 
+* Impact Report – On an annual basis, Golden Gate Ventures reports on the Fund’s positive impact. This report includes, but is not limited to: 
+   1. Metrics surrounding progress on Asean Digital Skills Vision (World Economic Forum) Pledge
+   2. Contributions to UN Sustainable Development Goals (SDGs)
+   3. Improvements in performance with clear environmental or social benefit (e.g., energy savings, certifications of relevant management systems) 
+________________
+   4. Procedures
+The following chapter details the processes, standards, and resources we use to manage the ESG risk of our investments. The processes are aligned to our investment cycle (Figure 1), and the section is thus divided by the phases of (i) screening, (ii) due diligence, (iii) IC approval, (iv) monitoring and (v) exit. The processes for due diligence differ where a potential investee is flagged as Category B+; the differences are reflected in the text. 
+  
+
+Figure 1: Golden Gate Ventures' processes and resources to manage ESG risks across the investment cycle
+   3. Screening
+We ensure that a prospective investee does not engage in activities that do not comply with Golden Gate Ventures’ standards, such as activities that are illegal in operating jurisdictions, ethically unacceptable, or can pose a reputational risk to Golden Gate Ventures. We thus screen all prospective investees against a criterion prior to any deals being brought to the pre-investment committee (“pre-IC”) stage and being approved for further due diligence. 
+Step 1: Apply exclusion list
+The investment team will verify if an investee is eligible for financing by comparing its business activities against the Exclusion List (see Appendix A). This list details the activities and characteristics that Golden Gate Ventures does not want to be associated with. If the company is not associated with activities on our Exclusion List, the investment team continues the investment process. 
+Step 2: Assign ESG risk category 
+All prospective investees undergo an initial screening process prior to the due diligence process. At this stage, investees are assigned an initial risk category based on the risk classification definitions. Further detail on completing initial risk categorisation is provided in Appendix C. Prospective investees which fall within Category A are ineligible for investment and need not undergo further screening. 
+Step 3: Determine alignment with the Paris Agreement
+Golden Gate Ventures is committed to applying the MDB Methodological Principles for Assessment of Paris Agreement Alignment. Companies engaging in Activities Considered Universally Not Aligned are excluded through the application of the exclusion list in the previous step. Most companies are expected to engage in Activities Considered Universally Aligned. Where activities are not obviously aligned, GGV applies the Paris Alignment Building Block 1 (climate mitigation) and Building Block 2 (climate adaptation) decision-tree methodology (Appendix B). 
+  
+
+Should any prospective investee’s activities be included in the above criteria, the investment team flags this to the ESG Manager. Where required, the prospective investee is informed of ineligibility, concluding the screening procedure and investment process. 
+Once the investment team has checked and confirmed none of the prospective investee’s activities to be listed on this Exclusion List, the prospective investee is eligible to proceed to the next stage: a comprehensive due diligence. 
+Responsible staff member Employee badge with solid fill 
+	Investment team, ESG Manager
+	Document to consult Folder Search with solid fill 
+	Exclusion List (Appendix A), Paris Alignment Guidance (Appendix B), ESG Risk Categorisation Methodology (Appendix C)
+	Document to complete Clipboard with solid fill 
+	–
+	   4. Due diligence
+A complete due diligence process must be completed to thoroughly evaluate a company, before making the investment decision. The primary due diligence is desk-based, for which we request the prospective investee to share relevant documents and data. As part of the due diligence, the investment team should conduct an ESG risk assessment to identify the specific environmental, social, and governance risks tied to the company’s sector, business activities, and value chain, and evaluate the extent of the company’s exposure to risk. This includes identifying applicable national and international ESG laws and regulations, and the investee's compliance with those regulations. After completing the identification of risks, the Fund has the necessary information to either confirm or reassess the investee’s ESG risk categorisation. 
+The investment team is chosen to conduct this assessment as they have the most detailed knowledge of the company’s business activities and expansion plans. Further, they are best placed to engage with the portfolio company, operating with a level of trust, as discussions around the materiality of ESG topics and areas of improvement begin in this step. The risk assessment utilises the ESG DD Questionnaire (Appendix E) to identify and mitigate ESG risks and find relevant metrics that should be monitored and reported on. 
+Step 1: Identify risk exposure and risk management performance
+Golden Gate Ventures will make use of all the standards listed below, in the form of the ESG Due Diligence Questionnaire, to identify and assess the environmental, social, and governance risks associated with every prospective investee and its operations. Through responses to the ESG Due Diligence Questionnaire, specific risks may be identified associated to the operations of the company. We also assess the company’s management of ESG risk, in accordance with the identified areas of material risk, as good management can mitigate the impact of inherent ESG risk on a company’s operations. Areas where the company falls short of the threshold set by the ESG Due Diligence Questionnaire will be part of the action plan created during the following phase (see IC Approval).
+Step 2: Detail context-specific risks
+The next phase of the assessment focuses on risks affiliated to the business’ activities, value chain, and how the company engages with other real economy sectors. Businesses operating in these sectors will be further assessed using these context-specific risks that are identified as material through the ESG Due Diligence Questionnaire. Some key themes are as follows:
+   * For companies operating in the technology space, data protection, privacy, and cyber-security will be investigated further, looking into data security systems and safeguards to protect digital information
+   * For businesses with operations that may be vulnerable to physical risks of climate change or in carbon-based sectors affected by climate-related policies and regulations, climate-related policies and procedures will be further assessed
+   * For businesses offering products or services where women may be vulnerable to discrimination, more emphasis will be placed on understanding practices and policies to mitigate gender-related risks
+   * Businesses with extensive supply chains will be assessed to ascertain that codes of conduct are in place to ensure that the company’s principles, policies, and procedures are also upheld by parties providing procured goods and services
+   * For renewable energy companies[6], representations and warranties are to be provided to the fund manager regarding supply chain labour and working conditions
+Step 3: Reassess risk categorisation 
+While an initial risk categorisation is conducted during the screening phase, we may choose to recategorise the business after the first phases of the due diligence, which may give us a better understanding of the true risk exposure of the company. We apply risk categorisation ranging from Category C and Category B to Category B+ and Category A. For an overview of all risk categories, consult Appendix C. For Category B+ investments, an external specialist must be engaged to conduct an in-depth ESG due diligence on the company. 
+Findings from the ESG due diligence process should be compiled into the ESG Template for Investment Memos, as covered in the following section. The risk categorisation is also used to prioritise ESG efforts between portfolio companies. 
+  
+
+Responsible staff member Employee badge with solid fill 
+	Investment team, ESG Manager, General Counsel
+	Document to consult Folder Search with solid fill 
+	Environmental and Social Risk Categorisation Methodology (Appendix C)
+	Document to complete Clipboard with solid fill 
+	ESG Due Diligence Questionnaire (Appendix D), ESG DD Template for Investment Memos (Appendix F)
+	   5. IC Approval
+Step 1: Prepare for investment decision 
+Once due diligence activities are completed, our investment team reports its findings and recommendations to the investment committee in the form of the ESG DD Template for Investment Memos (Appendix F) and the proposed ESG Action Plan (Appendix G) if it exists, so the committee has full understanding of the transaction and its ESG risks. These findings are also shared with LPs that advise the Fund on ESG matters. 
+It should be noted that all prospective investments must have in place a functional grievance redress mechanism (GRM) and link to AIIB’s Policy on the Project-affected People’s Mechanism (PPM) before the deal reaches IC. This GRM should be functional and disclosed to the investee’s employees and any affected people. Prospective investments must also inform their stakeholders that they have access to AIIB’s PPM. 
+To help set a consistent standard for ESG risk management practices, for the first three investments in each ESG risk category, and for all investments flagged as Category B+, the investment team will share its findings with LPs that advise the Fund on ESG matters at least 15 working days before the transaction is presented to the Fund’s Investment Committee. The findings will be shared in the form of the ESG DD Template for Investment Memo and the proposed ESG Action Plan.
+Step 2: Create an Action Plan 
+Once the IC decides to proceed with an investment, the ESG Manager will formalise discussions on ESG standards with the company in the form of an ESG Clause and Legal Covenants (Appendix H). In areas where the company falls short of our ESG standards, we will set targets for ESG performance, discussing how and when these targets should be achieved. Targets will also be set where the company is required to improve their capacity to measure and report ESG metrics (e.g., GHG emissions reporting). This process is supported by an “Action Plan”. The timeframe and extent of these improvements depends on the severity and urgency and is set in agreement with the investee. 
+Golden Gate Ventures understands that not every eligible investee will necessarily meet our ESG performance standards at the time of transaction closing, and that bringing an investee’s operations into compliance with the ESG agreements may require some time. In these instances, we work with the investee to agree on an Action Plan which defines corrective measures and milestones accordingly. As we see ESG risk management as a value driver, we align the Action Plan with the investee’s growth plans. Investees may be asked to develop risk management processes or emergency preparedness plans[7] to manage specific risks and improve governance. An Action Plan template is included in Appendix G. 
+The ESG Legal Covenants is a legally binding stipulation that upholds that we will only engage with a company if it is able to meet the criteria determined by the due diligence exercise and Action Plan. In the event of an Action Plan and/or rule breach, or of non-compliance with the provisions, deliverables, and/or undertakings defined in the Action Plan, Golden Gate Ventures may take remedial action or cease its funding.
+Responsible staff member Employee badge with solid fill 
+	Investment Committee, Investment team, ESG Manager, General Counsel
+	Document to consult Folder Search with solid fill 
+	ESG DD Findings for Investment Memo (Appendix F), ESG Legal Covenants (Appendix H) 
+	Document to complete Clipboard with solid fill 
+	Action Plan Template (Appendix G)
+	   6. Monitoring
+Step 1: Track progress on the Action Plan 
+We engage in ESG compliance monitoring based on our pre-determined ESG standards and principles. If we have agreed on an Action Plan with an investee, we also analyse their performance against this Action Plan. For investees that fall short of the Action Plan, or for those designated as Category B+, Golden Gate Ventures may consider engaging in regular site visits. If our investment team identifies an investee’s non-compliance with the clauses stipulated in the legal covenants (Appendix H), and/or if the company does not demonstrate its intent to implement corrective actions within a reasonable timeframe, Golden Gate Ventures will require a formal agreement to bring the investee under compliance using either (i) a flag report, specifying any serious incident with a follow-up to resolve these in a reasonable timeframe (see Appendix I), and/or (ii) a new corrective Action Plan.  
+If an agreement to addresses this non-compliance is not reached or implemented in a timely manner, our investment team and ESG manager will use all reasonable efforts to (i) assert and enforce any right of the Fund to require the portfolio company to comply with the Action Plan, including but not limited to, any available action for specific performance or similar remedy, and/or (ii) dispose of the Fund’s investment in this portfolio company on commercially reasonable terms, taking into account liquidity, market constraints and fiduciary responsibilities.
+Step 2: Collect ESG data
+After investment, Golden Gate Ventures takes an active role in portfolio management. The Fund prefers leading rounds and holding a board seat. At minimum, we engage a company through regular board meetings which include updates and performance reviews, with potential for further ad-hoc engagement and check-ins. We monitor certain metrics based on our due diligence of a company as outlined in Section 3: Measurement. 
+  
+
+Responsible staff member Employee badge with solid fill 
+	Investment team, ESG Manager, Investment Relations
+	Document to consult Folder Search with solid fill 
+	ESG Action Plan (Appendix G), ESG Legal Covenants (Appendix H)
+	Document to complete Clipboard with solid fill 
+	ESG Flag Report (Appendix I)
+	   7. Exit
+At Golden Gate Ventures, we are committed to integrating ESG at all stages of the fund lifecycle, including upon exit. During a sale or IPO process, we are committed to helping companies illustrate to investors the ESG risks and opportunities with the company, and their progress to date. We will also assist companies in selecting investors that themselves are aligned on ESG considerations. In the case of liquidation, we will work with the company and other co-investors to ensure that all relevant laws and regulations are complied with. 
+In case of sale 
+Step 1: Conduct counterparty check 
+Upon interest of purchase, we will investigate the buyer through an initial scan against international sanctions and a minimum ESG standard. We conduct a conduct a Know-Your-Buyer (KYB) scan on prospective buyers and cease further conversation with any counterparty listed on the OFAC and/or United Nations sanctions list. We also discuss the buyer’s reason for acquisition and their probably intentions for the company, working with the buyer and the deal team. 
+Once the buyer is deemed eligible, we ask the counterparty to share the following documents:
+   * ESG policies 
+   * High level overview of current ESG practices 
+   * Risk management system (if available) 
+   * Any disclosure reporting commitments 
+This information gives a high-level overview of the prospective buyer’s alignment with our ESG standards. At the same time, we try to build support for ESG practices and enable capacity building on the buyer side. 
+Step 2: Prepare investee handover 
+In exchange, Golden Gate Ventures and the investee of interest shall share the following documents: 
+   * ESG policies 
+   * ESG management related documents 
+   * A brief status report on the current ESG performance 
+This information should give the buyer a good sense of the ESG level of the company. 
+In case of IPO 
+Step 1: Conduct an ESG due diligence on investee
+Golden Gate Ventures will refer to the ESG Due Diligence Questionnaire to identify any potential ESG issues that could affect the investee’s valuation or reputation post-IPO. The business will also be assessed against any relevant ESG regulation and standards of the stock exchange and local market to ensure full compliance. 
+Step 2: Engagement with investee 
+Any identified lapses in ESG performance will be engaged upon with the relevant teams in the investee company, to make improvements to ESG risk management policy. 
+Step 3: Enhance transparency and reporting 
+Capacity building measures for the investee will be held to improve the monitoring and reporting standards of the business to disclosure requirements of the local regulatory bodies. 
+Responsible staff member Employee badge with solid fill 
+	Investment team, ESG Manager
+	Document to consult Folder Search with solid fill 
+	OFAC Sanctions List, UN Sanctions List
+	Document to complete Clipboard with solid fill 
+	–
+	
+
+________________
+
+
+   5. Roles and Responsibilities 
+The objective of this section is to clearly assign ESG responsibilities to different roles in the Golden Gate Ventures’ team to create accountability. Part of this includes separating the execution of ESG activities from the oversight of ESG tasks. The ESG Manager position serves as the team member who has oversight of all ESG activities and helps standardise the approach across the firm. The Fund commits to building the capacity of the staff to undertake ESG risk management activities – the ESG Manager will drive these capacity building efforts and serve as the internal expert on ESG matters. Execution of ESG tasks is split amongst different roles and teams. 
+Investment Committee
+The investment committee is composed of Vinnie Lauria, Jeffrey Paine, Justin Hall. The investment committee provides regular supervision of ESG risk management activities and sets the strategy on ESG risk management. On a transaction level, our investment committee decides whether ESG risks are acceptable to Golden Gate Ventures’ overall exposure to risk, providing sector-specific insights. 
+ESG Manager
+Angela Toy, Partner, Portfolio Growth at Golden Gate Ventures, is the designated ESG Manager. She is responsible for managing Golden Gate Ventures’ ESG framework and executing the Fund’s ESG practices. 
+Investment Team
+Our investment team is responsible for the deal sourcing and due diligence process and conducts the ESG due diligence with the support of the ESG Manager. The investment team is also the point of contact for investees and supports the ESG Manager with requesting information during portfolio management. 
+Operations Team
+The operations team is responsible for updating ESG documentation, including the procedures in the ESG RMF and the review records of material provided by portfolio companies. The team also manages resources (budget and staff) to execute ESG risk management activities and training. 
+Investor Relations
+Mahesha Subramaniam develops and manages Investor Relations at Golden Gate Ventures, and is responsible for compiling the Fund’s ESG, GHG emissions, and Impact reports. Further, he is responsible for providing investors with ESG DD reports and reporting any serious incidents related to ESG issues to investors. 
+General Counsel
+Chen Yang Sia is Golden Gate Ventures’ General Counsel and is responsible to ensure that ESG requirements are incorporated in legal agreements. 
+LPAC ESG Advisor
+AIIB’s E&S team serves as the ESG advisor on Golden Gate Ventures’ Limited Partners Advisory Committee. The ESG Advisor provides advice on emerging trends and best practices and promotes innovative financing approaches.  
+
+
+Responsibilities 
+Responsible Parties
+	Strategy
+	Policies and Procedures
+	Screening & Due Diligence 
+	IC Approval
+	Monitoring & Exit 
+	
+
+   * Investment Committee [IC]
+   * ESG Manager
+   * Investment Team [Inv]
+   * Operations Team [Ops]
+   * Investment Relations [IR]
+   * General Counsel [GC]
+   * LPAC ESG Advisor [LPAC] 
+
+
+
+
+
+
+
+
+	   * Charts direction of responsible investment strategy [IC & ESG Manager]
+   * Provides advice on emerging trends, best practices, and sector-specific challenges [LPAC]
+	   * Approves ESG considerations within Firm policies [ESG Manager]
+   * Annually reviews framework updates to ensure it fits with investment strategy [IC & ESG Manager]
+   * Develops and updates the procedures [Ops]
+   * Ensures adequate resources (budget and staff) to fulfil ESG requirements [ESG Manager]
+   * Manages resources for ESG risk management and training [Ops]
+   * Maintains ESG review records and any complaints/ grievances received through ECM/GRM [Ops]
+   * Promotes innovative financing approaches and rigorous ESG risk mgmt. [LPAC]
+	   * Evaluates ESG compliance of prospective investee, incl. (i) screening investee against Exclusion List, (ii) collecting & analysing ESG documentation (iii) evaluating investee against applicable standards, and (iv) preparing ESG DD reports for IC paper [Inv]
+   * Ensures the DD procedures are implemented for each potential investment [ESG Manager]
+   * Evaluates the effectiveness of Corporate Governance of a prospective investee, including collection and treatment of necessary CG documentation & issue conclusions and potential recommendations. [GC]
+	   * Informs relevant LPs on the ESG DD reports and any proposed ESG Action Plan for potential investments that are flagged Category B+, promptly after completion of ESG DD, but no later than 15 business days before presentation of the proposed investment to the investment committee [IR]
+   * Ensures all investment decisions are supported by appropriate DD docs, incl., but not limited to, an ESG section in the IC paper [ESG Manager]
+   * Ensures that Legal Covenants, Action Plan, and other warranties are incorporated into all legal agreements prior to disbursement [GC]
+   * Decides whether to proceed with transaction based on ESG DD documentation [ESG Manager & IC]
+   * Ensures that investee non-compliance with standards:
+   * requires immediate disclosure
+   * constitutes a breach of contract 
+   * is considered as an Event of Default under the terms of the legal agreement [GC]
+	   * Follows up with investees to acquire the compulsory ESG data [Inv]
+   * Supports ESG Manager in negotiating the adoption of possible ESG measures with the investee [Inv]
+   * Confirms portfolio companies comply with applicable requirements and Action Plan measures on a regular basis, including on-site visits [Inv]
+   * Reports on GGV’s ESG risks at portfolio & investee levels in Annual Report [IR]
+   * Reports any serious incidents related to ESG issues to LPs [IR]
+   * Facilitates responsible exits [Inv & ESG Manager]
+	
+
+
+
+  
+
+________________
+
+
+   1. Exclusion List
+The Fund does not provide financing to companies with activities or characteristics mentioned in the Exclusion List below. Golden Gate Ventures excludes companies with activities included in AIIB’s Environmental and Social Exclusion List, the Harmonized EDFI Exclusion List and the Joint MDB List of Activities Considered Universally Not Aligned with the Paris Agreement. Further, GGV excludes companies that warrant a Category A risk categorisation, trigger AIIB’s Operational Policy on International Relations (“OPIR”), trigger AIIB’s Environmental and Social Standard 2: Involuntary Resettlement (“ESS 2”) or trigger AIIB’s Environmental and Social Standard 3: Indigenous Peoples (“ESS 3”). 
+The Fund will not knowingly finance Projects involving the following: 
+   1. ESG Risks that warrant a risk categorisation of Category A (see Appendix C).
+   2. Activities that trigger AIIB’s Operational Policy on International Relations (OPIR), including International Waterways[8], disputed areas, De Facto Governments[9], or United Nations (UN) Security Council Measures[10]. 
+   3. Activities that trigger on AIIB’s ESS 2: Land Acquisition & Involuntary Resettlement[11] or forced evictions[12]. 
+   4. Activities that trigger AIIB’s ESS 3: Indigenous Peoples11.
+   5. Activities Considered Universally Not Aligned with the Paris Agreement’s mitigation goals including the mining of coal, the extraction of peat, electricity or heat generation from coal or peat, and any projects functionally related to coal[13], and those in connection or associated with the business of nuclear- or oil-power generation. 
+   6. Forced labour[14] or harmful or exploitative forms of child labour.[15]
+   7. The production of, or trade in, any product or activity deemed illegal under national laws or regulations of the Member in whose territory the Project is located, or international conventions and agreements, or subject to international phase out or bans, such as:
+   1. Production of, or trade in, products containing polychlorinated biphenyl (PCBs).[16]
+   2. Production of, or trade in, illegal narcotics, pharmaceuticals, pesticides/herbicides, and other hazardous substances subject to international phase outs or bans (Rotterdam Convention, Stockholm Convention).[17]
+   3. Production of, or trade in, ozone depleting substances subject to international phase out (Montreal Protocol).[18]
+   8. Trade in wildlife or production of, or trade in, wildlife products regulated under the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES).[19]
+   9. Transboundary movements of waste prohibited under international law (Basel Convention).[20]
+   10. Production of, or trade in, weapons and munitions, including paramilitary materials.
+   11. Production of, or trade in, alcoholic beverages.[21]
+   12. Production of, or trade in, tobacco.[22]
+   13. Gambling, casinos, and equivalent enterprises.[23]
+   14. Prostitution
+   15. The manufacture, sale, or distribution of pornographic content 
+   16. Racist and/or anti-demographic media 
+   17. Production of, trade in, or use of asbestos fibres, whether or not bonded.[24]
+   18. Activities prohibited by legislation of the Member in whose territory the Project is located or by international conventions relating to the protection of biodiversity resources or cultural resources, such as, Bonn Convention, Ramsar Convention, World Heritage Convention and Convention on Biological Diversity.[25]
+   19. Commercial logging operations or the purchase of logging equipment for use in primary tropical moist forests or old-growth forests.
+   20. Production or trade in wood or other forestry products other than from sustainably managed forests.
+   21. Marine and coastal fishing practices, such as large-scale pelagic drift net fishing and fine mesh net fishing, harmful to vulnerable and protected species in large numbers and damaging to marine biodiversity and habitats.
+   22. Shipment of oil or other hazardous substances in tankers that do not comply with IMO requirements (IMO, MARPOL, SOLAS, and Paris MOU).[26]
+________________
+
+
+   2. Paris Alignment  
+As part of the screening process, the investment team verifies whether the investee is aligned with the Paris Agreement. Any investee engaging in Activities Considered Universally Not Aligned is excluded. Then, investees are compared against the list of Activities Considered Universally Aligned. Given GGV’s investment universe, most companies are expected to fit with the ICT/Digital Technologies or Services sector. If a company’s activities fall outside this list, they are then assessed using the Building Block 1 (“BB1”) and Building Block 2 (“BB2”) criteria in the following section. 
+Activities Considered Universally Aligned 
+These are activities considered to be consistent or inconsistent with low-greenhouse gas development pathways. It should be noted that these lists are expected to be revised over time. Refer to AIIB’s List of Activities Considered Universally Aligned with the Paris Agreement’s Mitigation Goals or Not Aligned with the Mitigation Goals for most updated list. 
+Table 1 – Activities considered universally aligned with the Paris Agreement’s mitigation goals 
+Sector
+	Eligible operation type
+	Conditions and guidance
+	Energy
+	Generation of renewable energy (e.g., from wind, solar, wave power, etc.) with negligible lifecycle GHG emissions.
+	Includes generation of heat or cooling
+	Rehabilitation and desilting of existing hydropower plants, including maintenance of the catchment area (for example, a forest management plan).
+	Rehabilitation includes work on the water holding capacity of the dam and work on pipes / turbines to increase productivity and bring additional grid stabilization benefits, and for pumped storage.
+	District heating or cooling systems with negligible lifecycle GHG emissions.
+	Using significant renewable energy or waste heat or cogenerated heat or 
+a) modifications to lower temperature delta; 
+b) advanced pilot systems (control and energy management, etc.).
+	Electricity transmission and distribution, including energy access, energy storage, and demand-side management.
+	
+
+	Cleaner cooking technologies. 
+	Cleaner cooking technologies substitute the use of traditional solid biomass fuels in open fires; they include sustainable biomass or electric cook stoves.
+	Manufacturing
+	Non-energy-intensive industry (excludes chemicals, iron and steel, cement, pulp and paper, and aluminium).
+	Consider the nature of the product produced (carbon content, lifetime, ability to be reused/recycled).
+	Manufacture of electric vehicles; non-motorized vehicles, electric locomotives; non-motorized rolling stock.
+	
+
+	Manufacture of components for renewable energy or energy efficiency.
+	
+
+	Agriculture, forestry, land use and fisheries
+	Afforestation, reforestation, sustainable forest management, forest conservation, soil health improvement.
+	With the exception of operations that expand or promote expansion into areas of high carbon stocks or high biodiversity areas.
+	Low-GHG agriculture, climate-smart agriculture.
+	With the exception of operations that expand and promote expansion into areas of high carbon stocks or high biodiversity areas and taking into account (international) transport.
+	Conservation of natural habitats and ecosystems.
+	With the exception of operations that expand or promote expansion into areas of high carbon stocks or high biodiversity areas. 
+	Fishing and aquaculture. 
+	Non-ruminant livestock with negligible lifecycle GHG emissions. 
+	Flood management and protection, coastal protection, urban drainage. 
+	Waste
+	Separate waste collection (in preparation for reuse and recycling), composting and anaerobic digestion of biowaste, material recovery, and landfill gas recovery from closed landfills.
+	
+
+	Water supply and wastewater
+	Water supply systems (e.g., expansion, rehabilitation); water quality improvement; water efficiency (e.g., nonrevenue water reduction, efficient process in industries); drought management; water management at watershed level.
+	Desalination plants need to go through specific assessment
+	Gravity-based or renewable energy-powered irrigation systems.
+	
+
+	Wastewater treatment (domestic or industrial), including treatment and collection of sewage, sludge treatment (e.g., digestion, dewatering, drying, storage), wastewater reuse technology, resource recovery technologies (e.g., biogas into biofuel, phosphorus recovery, sludge as agriculture input, sludge as combustion material),
+	
+
+	Transport
+	Electric and non-motorised urban mobility 
+	
+
+	Roads with low traffic volumes providing access to communities which currently do not have all-weather access (for example, connecting farmers to markets or providing access to a rural school, hospital, or better social benefits).
+	Except if there is any risk of contributing to deforestation 
+	Electric passenger or freight transport
+	
+
+	Short sea shipping of passengers and freight transport vessels
+	
+
+	Port infrastructure (maritime and inland waterways)
+	
+
+	Rail infrastructure
+	
+
+	Road upgrading, rehabilitation, reconstruction, and maintenance without capacity expansion. 
+	
+
+	Building and public installations 
+	Buildings (education, healthcare, housing, offices, retail, etc.).
+	Needs to meet green building certification criteria as established by each individual MDB[27]
+	LED street lighting
+	
+
+	Parks and open public spaces
+	Excluding energy-consuming installations [28]
+	Information and communications technology (ICT) and digital technologies
+	Information and communication 
+	Data centres need to go through specific assessment 
+	Research, development, and innovation
+	Professional, scientific, research and development (R&D), and technical activities.
+	
+
+	Services
+	Services Public administration and compulsory social security.
+	
+
+	Education (excluding infrastructure/buildings).
+	
+
+	Human health and social work activities (excluding infrastructure/buildings).
+	
+
+	Social protection, cash transfer schemes.
+	
+
+	Arts, entertainment, and recreation (excluding infrastructure/buildings).
+	
+
+	Cross-sectoral activities
+	Conversion to electricity of applications that currently use fossil fuels.
+	
+
+	
+
+Assessing alignment for other activities 
+GGV may consider a company for investment with activities that fall outside of the Activities Considered Universally Aligned. In these cases, the company’s activities have to be checked against Building Block 1 (“BB1”) for alignment with climate mitigation goals and against Building Block 2 (“BB2”) for alignment with climate adaptation goals. 
+Building Block 1: Climate Mitigation
+The joint MDB methodological framework presents a two-pronged assessment approach, as illustrated in the Figure 2 below. It includes: 
+   1. An initial screening using uniform assessment criteria (UC), which identify operations or activity types that are universally considered to be aligned (UC1) or not aligned (UC2); and
+   2. Specific assessment criteria (SC) for operations or activities are not included in either UC1 or UC2, taking into account national circumstances and other operation-specific contexts. 
+  
+
+Figure 2: BB1 Assessment Approach for Paris Alignment
+Building Block 2: Climate Adaptation
+The joint MDB methodological framework for assessing Paris Agreement Alignment under BB2 for direct investment operations is largely based on the core steps for tracking adaptation finance in MDB operations.11 Central to the approach are three assessment criteria. Figure 3 below summarizes the overall process for assessing alignment for the adaptation and climate resilience goals in direct investment operations. 
+ A diagram of a climate change
+
+Description automatically generated 
+
+Figure 3: BB2 Assessment Approach for Paris Alignment
+________________
+
+
+   3. ESG Risk Categorisation Methodology
+Definitions
+The categories are defined as follows: 
+   * Category C. Portfolio company business activities are likely to have minimal or no adverse ESG impacts. Minimal impacts can be successfully mitigated by the portfolio company with well-known and cost-effective mitigation measures. The Fund prepares an ESG risk analysis as part of the due diligence process. Corresponds to AIIB Category C. 
+   * Category B. Portfolio company business activities have limited number of potentially adverse ESG impacts. Impacts are not unprecedented, few if any are irreversible or cumulative, and can be successfully managed using good practice in an operational setting. The Fund prepares an ESG risk analysis and works with the portfolio company to manage risks using an Action Plan. Corresponds to AIIB Category B. 
+   * Category B+. Portfolio company business activities have limited number of potentially adverse ESG impacts. Impacts are not unprecedented but may pose higher risk[29], few if any are irreversible or cumulative, and can be successfully managed using good practice in an operational setting with external support. The Fund prepares an ESG risk analysis and tasks an external specialist to conduct an in-depth due diligence of ESG risks in line with the Terms of Reference for External Consultants (Appendix J), followed by an Action Plan. Corresponds to AIIB Category B. 
+   * Category A. Portfolio company business activities are likely to have significant adverse ESG impacts that are irreversible, cumulative, diverse, or unprecedented. These impacts may affect an area larger than the sites or facilities subject to physical works. Impacts may be permanent or temporary in nature and either cannot be mitigated or only at significant costs. Investments of this nature form part of the Fund’s Exclusion List (Appendix A). Corresponds to AIIB Category A. 
+In the case that the portfolio company is a financial intermediary (“FI”), with business activities that involve investments in financial institutions or through delivery mechanisms involving financial intermediation, the above categories also apply to its portfolio. The risk category of the FI is based on its exposure and risk management systems, as defined below:
+   * Category FI–C: FI’s existing or proposed portfolio includes financial exposure to business activities that predominantly have minimal or no adverse environmental or social impacts. 
+   * Category FI–B: FI’s existing or proposed portfolio is comprised of, or is expected to be comprised of, business activities that have potential limited adverse environmental or social risks or impacts that are few in number, generally site-specific, largely reversible, and readily addressed through mitigation measures; or includes a very limited number of business activities with potential significant adverse environmental or social risks or impacts that are diverse, irreversible, or unprecedented. 
+   * Category FI–A: FI’s existing or proposed portfolio includes, or is expected to include, substantial financial exposure to business activities with potential significant adverse environmental or social risks or impacts that are diverse, irreversible, or unprecedented. 
+Category FI-A companies are excluded from investment. Category FI-B and Category FI-C companies are required to follow the requirements and exclusions of Golden Gate Ventures’ ESG Risk Management Framework, including building a process to systematically identify, manage, and mitigate the ESG risks tied to their portfolio.
+Alignment with AIIB’s ESF
+Table 2: Alignment of AIIB's and GGV's ESG risk categorisation
+AIIB’s risk categories
+	Category A
+	Category B
+	Category C
+	GGV’s risk categories
+	Category A
+	Category B+
+	Category B
+	Category C
+	Summary of GGV’s obligations
+	Exclude investment.
+	Hire external specialist for ESG DD.
+	Identify, assess, manage, and monitor ESG risks with a feasible and suitable ESG Action Plan.
+	Identify, address, and monitor ESG risks as appropriate.
+	Application
+Screening and categorisation should be conducted as early as feasible, at the outset of an investment’s due diligence assessment, in order to determine the nature and level of the required E&S assessment, information disclosure and stakeholder engagement required of the prospective investment. 
+The categorisation should consider the (i) type; (ii) nature; (iii) location; (iv) sensitivity; and (v) scale of the investment, so that the assessment is proportional to the significance of the investment opportunity’s potential environmental and social risks and impacts. This process should also determine which of the ESSs apply, and which of the ESG instruments are required of the investment opportunity. 
+The categorisation should be determined on the basis of the Prospect’s component presenting the highest environmental or social risk and potential impact, including direct, indirect, cumulative and induced impacts. A field-based review may be conducted as part of the categorisation process to provide a refined understanding of the E&S risks and impacts. The categorisation of the investment may be adjusted over time, if warranted by changes in the E&S risks and impacts.
+Applying EBRD’s sector list
+To provide guidance for what kind of activities warrant which risk categorisation, the investment team can refer to the EBRD Environmental and Social Risk Categorisation List. However, the investment team is encouraged to look beyond the company’s sector of operation, and instead apply the definitions to the operating activities of the investees. For example, an AgriTech platform company’s operations are likely to be more in line with the sectors described under Wholesale and retail trade rather than Agriculture, forestry and fishing, which should be reflected by the assigned risk category. 
+
+
+Example risk categorisation 
+Portfolio Name
+	Investment Date
+	Sector
+	Geographies Active
+	Risk Category
+	Justification
+	Tititada
+	Jan-22
+	Fintech
+	Vietnam
+	Cat FI-B
+	Microlending investments app. Risks of over-indebtedness amongst other Client Protection Risks. While most risks are minimal, over-indebtedness is potentially adverse, though can be managed with best practices.
+	Locofy
+	Feb-22
+	A.I.
+	Southeast Asia / Global
+	Cat C
+	Risks include data privacy and data security, but limited exposure to risk as a B2B tool that has to be applied by experienced developers. It's quite reliant on existing tools that have been validated, and ESG risks have minimal impact.  
+	Finku
+	May-22
+	Fintech
+	Indonesia
+	Cat FI-B
+	Data privacy and security is key due to the financial services being provided. Provision of credit card might provide a risk of over-indebtedness. It’s a gamified platform so appropriate product design and delivery are important. Risks can be managed using best practices but are significant enough to warrant Category FI-B. 
+	Baya
+	Jun-22
+	Fintech
+	Southeast Asia / India
+	Cat C
+	As a B2B software solution that uses info on invoices, payments, etc. with real-time tracking capabilities, the main risk is data privacy. If the company offers more financial services, risk categorisation may be reevaluated. 
+	Nurture
+	Dec-22
+	Edutech
+	Global
+	Cat B
+	Purely tech platform, in the form of an entertainment app for children. Risks are related to user safety, data privacy, critical incident risk management. Given that the primary users are children, this warrants a Category B risk, though the company hires child education experts and manages risk. 
+	Flyx
+	Feb-23
+	A.I.
+	Global
+	Cat C
+	As a company developing B2B AI tools, key risks are on data privacy and security, and on 'black box' risks around AI. If the company pivots to consumer-facing applications, the risk categorisation may be reevaluated. 
+	Melvil
+	Jul-23
+	A.I.
+	Southeast Asia / Global
+	Cat C 
+	Data privacy, data security, systemic risks from tech, business model resilience due to their AI-driven business model that relies on chat-GPT to analyse personal employee data across platforms. Risks are limited by the tight focus of the platform - searching existing data.  
+	________________
+
+
+   4. Golden Gate Ventures’ Consumer Protection Principles
+Appropriate Product Design and Delivery
+Our investees take adequate care to design products and services in such a way that they do not cause consumer’s harm. Products and services are designed with the characteristics of the investees’ consumer in mind.
+Fair and Respectful Treatment of Clients
+Our investees will treat their consumers fairly and respectfully. They will not discriminate. Providers will ensure adequate safeguards to detect and correct corruption as well as aggressive or abusive treatment by their staff and agents.
+Transparency
+Our investees will communicate clear, sufficient, and timely information in a manner and language their consumers can understand so that they can make informed decisions. The need for transparent information on pricing, terms and conditions, and data privacy of products is highlighted.
+Responsible Pricing
+Pricing, terms, and conditions will be set in a way that is affordable to consumers while allowing for our investees to be sustainable. Investees offering financial products will strive to provide positive real returns on deposits.
+Privacy of Consumer Data
+The privacy of individual consumer data is respected in accordance with the laws and regulations of individual jurisdictions[30]. Such data will only be used for the purposes specified at the time the information is collected or as permitted by law, unless otherwise agreed with the client.
+Mechanisms for Complaint Resolution
+Our investees have timely and responsive mechanisms in place for complaints and problem resolution for their consumers and will use these mechanisms both to resolve individual problems and to improve their products and services.
+Prevention of Over-indebtedness
+Our investees take adequate precautions to ensure that clients have the capacity to pay for a product or service or repay financial products without becoming over-indebted. In addition, investees will implement and monitor internal systems that support prevention of over indebtedness and will foster efforts to improve market level credit risk management (such as credit information sharing).
+   5. ESG DD Questionnaire
+The Fund defines thresholds for the ESG DD questionnaire. Areas where an investee does not meet the Fund’s threshold require an Action Plan item. Levels below the threshold are coloured yellow, while levels above the threshold are coloured green. 
+Risk Management Capacity Questionnaire 
+Area
+	Definition
+	Materiality
+	Level
+	Comments
+	ESG Policy
+	Non-existent
+	 
+	Level 0
+	 
+	The company has no policy, but some ESG procedures in place (e.g., clearly documented employment contracts, transparent employment practices, responsible consumption of materials etc..). 
+	Level 1
+	The company has policies and procedures in place meeting applicable ESG standards. sporadic communication, implementation, and review.
+	Level 2
+	Full set of ESG policies, procedures, and records, centrally maintained and routinely reviewed. Extensive awareness in company.
+	Level 3
+	ESG Risk and Opportunity Identification
+	Non-existent
+	 
+	Level 0
+	 
+	Basic identification and assessment of ESG risks but limited to a few activities.
+	Level 1
+	Awareness and engagement of staff in systematic identification and prioritization of ESG risks. External experts involved as required. 
+	Level 2
+	Systematic, documented identification and prioritization of ESG risks, routinely reviewed and updated as part of a continual improvement plan. Internal and external inputs. Procedures extended to contractors, subcontractors, third parties and supply chain as relevant. 
+	Level 3
+	ESG Reporting
+	Non-existent
+	 
+	Level 0
+	 
+	Minimal amounts of communication and ESG reporting are provided, usually or entirely initiated by the fund manager.
+	Level 1
+	ESG reporting procedures are in place, mostly with a reactive and minimum (as opposed to comprehensive) approach.
+	Level 2
+	Regular ESG reporting occurs, is comprehensive in nature, evaluates past and current performance. Ad hoc reporting is provided when warranted, and with minimum delay. 
+	Level 3
+	ESG Performance Management & Monitoring 
+(for Cat B companies)
+	Non-existent
+	 
+	Level 0
+	 
+	Limited programs or activities to manage and monitor ESG risks. 
+	Level 1
+	Actions/activities in place to manage and monitor ESG risks. Measurable company-wide objectives and targets. Periodic review and update.
+	Level 2
+	Routine, consistent implementation of actions/activities to proactively manage and monitor ESG risks. Significant improvements in ESG performance. Demonstrated commitment to continual improvement using annual improvement plans. 
+	Level 3
+	
+
+Environment Questionnaire
+Area
+	Definition
+	Materiality
+	Level
+	Comments
+	Environmental impact
+	Non-existent
+	 
+	Level 0
+	 
+	The company identifies risk where its operations and value chain may pollute (e.g., pollute water, air, or land; increase waste generation; generate hazardous materials), use resources inefficiently (e.g., water, energy), or threaten biodiversity (e.g., operate in critical habitats; degrade natural habitats; introduce invasive species). The company has and complies with any and all required environmental permits or licenses as per national law. 
+	Level 1
+	In addition to the above, the company plans to manage and mitigate risk where its operations and value chain may pollute, use resources inefficiently, or threaten biodiversity.
+	Level 2
+	In addition to the above, the company actively minimizes its environmental impact, mitigating potential pollution, resource inefficiencies, or threats to biodiversity. 
+	Level 3
+	Greenhouse gas emissions
+	Non-existent
+	 
+	Level 0
+	 
+	The company has identified the greenhouse gas emission intensity of its operations, and value chain to the extent possible. 
+	Level 1
+	The company has in place procedures or policy to periodically monitor the greenhouse gas emissions of its operations, and value chain to the extent possible. It shows some commitment to the decarbonisation of its operations. 
+	Level 2
+	In addition to the above, the company has a decarbonization strategy with concrete, timebound targets and periodic progress reports with Management approval. The company engages with its value chain to understand and/or educate on the topic of decarbonization. 
+	Level 3
+	
+
+Social Questionnaire 
+Area
+	Definition
+	Materiality
+	Level
+	Comments
+	Labour Standards
+	Non-existent
+	 
+	Level 0
+	 
+	The company complies with local labour laws. The company intends to establish human resources policies and procedures and may have already implemented them informally. 
+	Level 1
+	The company complies with local labour laws. The company has established human resources procedures, including providing all employees (including contracted workers) with relevant formal employment contracts and clear and understandable documentation related to working hours, wages, overtime and compensation and internal harassment procedures and grievance mechanisms are in place. 
+	Level 2
+	Human resources policies and procedures appropriate to the company's size and workforce are implemented and are in line with IFC PS requirements and national and international laws and regulations. All employees (including contractors) are provided with relevant formal employment contracts. Clear and understandable documentation is provided to employees related to working hours, wages, overtime, and compensation. Collective bargaining agreements are allowed, and internal harassment procedures and grievance mechanisms are in place. 
+	Level 3
+	Occupational Health & Safety Standards
+	Non-existent
+	 
+	Level 0
+	 
+	Procedures are implemented that identify and mitigate potential hazards to workers, particularly those that may be life-threatening. The company is compliant with all relevant OH&S laws and regulations. 
+	Level 1
+	OHS policies and procedures are implemented, that provide preventive and protective measures to eliminate hazardous conditions and substances. Workers are made aware of OHS hazards and their prevention, and the company documents and reports occupational accidents, diseases, and incidents to GGV and other stakeholders. The company is compliant with all relevant OH&S laws and regulations. 
+	Level 2
+	OHS policies and procedures are implemented, that provide preventive and protective measures, and are aligned with the IFC's Environmental, Health and Safety Guidelines and consistent with national laws and regulations and international standards. Workers are trained on OHS hazards and their prevention, and the company documents and reports occupational accidents, diseases, and incidents to GGV and other stakeholders. The company is compliant with all relevant OH&S laws and regulations. 
+	Level 3
+	Child and Forced Labour Policy
+	Non-existent
+	 
+	Level 0
+	 
+	The company has a basic policy in place to manage and establish the current or future risk of child and forced labour.
+	Level 1
+	Detailed policy in place to manage and establish the current or future risk of child and forced labour. The company has established processes for employees to identify and/ or report on child and forced labour.
+	Level 2
+	Detailed policy in place to manage and establish the current or future risk of child and forced labour. The company educates its clients on this risk and has established processes for employees to identify and/ or report on child and forced labour.
+	Level 3
+	Community Engagement and Impact
+	Non-existent
+	 
+	Level 0
+	 
+	The company identifies stakeholders that may be affected by its activities. It has procedures in place to identify and manage potential risks to community/stakeholder health and safety, and cultural heritage (where relevant). 
+	Level 1
+	In addition to the above, the company has in place a detailed policy that is aligned to international standards (IFC PS 4). Stakeholders and potentially affected parties have been identified through meaningful consultation. 
+	Level 2
+	In addition to the above, the company educates its clients on this risk and community consultation and engagement is well documented. 
+	Level 3
+	Consumer Protection 
+	Non-existent
+	 
+	Level 0
+	 
+	
+The company complies with relevant consumer protection laws. 
+	
+
+	Level 1
+	In addition to the above, the company has basic policies in place that demonstrate the fair and respectful treatment of clients, including the design of products and services that cause no harm to consumers. The company is demonstrably committed to pricing transparency and communicates this in a timely manner. The company sets its pricing, terms, and conditions in a way to ensure its own financial and material sustainability. 
+	
+
+	Level 2
+	The company has comprehensive policies regarding the fair and respectful treatment of clients, transparency, and responsible pricing. In addition to the above, this includes the identification of the key characteristics of clients and consumers, which is used to inform do no harm design practice. The company regularly publicly communicates its transparency policy to allow consumers to make informed decisions. The company demonstrably seeks to balance its own financial and material sustainability with affordable pricing, terms, and conditions for the consumer.  
+	
+
+	Level 3
+	Supply chain risk management 
+	Non-existent
+	 
+	Level 0
+	Please list the topics subject to supply chain analysis (e.g. labour and working conditions)
+	
+The company engages with partners to be better informed of its supply chain and identify potential risks therein. 
+	
+
+	Level 1
+	The company has carried out, and periodically updates, a supply chain risk assessment and has in place a supply chain management plan, commensurate with the risks identified.
+	
+
+	Level 2
+	In addition to the above, the company requires supply chain partners to provide representations and warranties regarding labour and working conditions. The company reserves the right to inspect and audit its supply chain partners, reserving the right to terminate contract in the event of material non-compliance.  
+	
+
+	Level 3
+	
+
+Governance Questionnaire 
+Area
+	Definition
+	Materiality
+	Level
+	Comments
+	Commitment to Corporate Governance (CG)
+	Non-existent
+	 
+	Level 0
+	 
+	There is a charter with basic corporate governance articles including wording on minority shareholder protection. Roles & responsibilities for the company a defined with clear decision-making and authority limits. Information is disclosed regularly.
+	Level 1
+	In addition to the above, the Board has approved a written code of CG, as well as the annual calendar of events, and CG disclosures are made to shareholders. 
+	Level 2
+	In addition to the above, there is a designated CG officer, and the corporate governance is evaluated against external benchmarks of best practices and disclosed. 
+	Level 3
+	Board Structure and Functioning
+	Non-existent
+	 
+	Level 0
+	 
+	The company has informal oversight and control processes in place. 
+	Level 1
+	Board meetings are held regularly and with adequate upfront notice and information sharing. The internal control system and the audit function are in line with national standards. The Board monitors risk and compliance. 
+	Level 2
+	Directors are elected regularly, a majority of whom are independent, and one of whom chairs the Audit Committee. There is a comprehensive risk management and compliance system, and the audit function is in line with national standards. 
+	Level 3
+	Compliance with Laws & Regulations
+	Non-existent
+	 
+	Level 0
+	 
+	Compliance with applicable legislation and regulations. 
+	Level 1
+	Monitoring and awareness of all relevant legislation and regulation, and full compliance. Occasional external audits if warranted by local law. 
+	Level 2
+	Full compliance, and processes to identify and monitor relevant legislation and regulation and ensure continuous compliance. Regular external audits and compliance reports are provided to the Board. 
+	Level 3
+	Anti-Bribery and Corruption (ABC) Management
+	Non-existent
+	 
+	Level 0
+	 
+	The company has anti-bribery and corruption processes in place and intends to establish a policy. 
+	Level 1
+	There is an anti-bribery and corruption policy, endorsed by senior management, which mandates staff to report suspected corruption. Training is provided for select staff, and there is an anti-bribery and corruption officer who reports directly to the Board.
+	Level 2
+	The policy is communicated to all external business partners. Training is required for all employees. The policy implementation is externally audited and reviewed by the Board for the annual report.
+	Level 3
+	AML, KYC & KYB Management
+	Non-existent
+	 
+	Level 0
+	 
+	The company engages in ad-hoc Know Your Customer (KYC), Anti-Money Laundering (AML) and Know Your Business (KYB) checks. Incidents are reported to GGV.
+	Level 1
+	The company conducts regular AML, KYC & KYB checks. Staff is trained to report suspected money laundering. AML awareness training is provided for select staff. Incidents are reported to GGV.
+	Level 2
+	The company conducts regular AML, KYC & KYB checks. A designated AML officer reports results to the Board. Staff and business partners are informed about the AML, KYC & KYB practices and screened for previous convictions. AML training is mandatory for all staff and incidents are reported to GGV.
+	Level 3
+	GRM & PPM
+	Non-existent
+	 
+	Level 0
+	 
+	The company operates a grievance mechanism to receive and facilitate resolution of the concerns and complaints of people who believe they have been affected by the company's business activities in respect to ESG matters. This is readily accessible in relevant languages on the company's website and also includes information about and a link to the AIIB'S Project Affected People's Mechanism website. 
+	Level 1
+	In addition to the above, the company's grievance mechanism has been endorsed by the company's Management and Board and lists multiple points of contact. If relevant, stakeholder mapping has been carried out. 
+	Level 2
+	In addition to the above, the company displays its full grievance policy on its website, including the explanation of anonymity and confidentiality. The mechanism is regularly communicated to stakeholders. 
+	Level 3
+	Cyber Security and Data Governance
+	Non-existent
+	 
+	Level 0
+	 
+	Systems and security patches are up-to-date, and basic cyber threat and data security risk governance elements have been established. 
+	Level 1
+	System, user, and network activity is monitored. User privileges are reviewed periodically, generic training is provided, there are security protocols to prevent data breaches, and there is an appointed person in charge of cyber and data security.
+	Level 2
+	User privileges are restricted to the necessary minimum, tailored training is provided to specific staff and needs, there are regular security reviews, and the company discloses externally it has a cyber security team. 
+	Level 3
+	
+
+Track Record Questionnaire (open-ended)
+Area
+	Definition
+	Comments
+	Regulatory and legislative breaches 
+	Has the company experienced any ESG-related regulatory non-compliances or litigation, including with respect to health and safety, labour, data security or environmental issues? If yes, please give details on the root causes, corrective actions, and current status. 
+	 
+	Supply chain issues 
+	Has the company ever found material non-compliances with supply chain partners with respect to labour and working conditions? If yes, please give details on the root causes, corrective actions, and current status. 
+	 
+	Transparency & disclosure 
+	In the last 5 years, have external auditors have issued a Qualified, Adverse or Disclaimer of Opinion on financial statements and/or made any material restatements of financial statements? If yes, please give details on the root causes, corrective actions, and current status. 
+	 
+	Renewable energy companies
+	   * Considering elements such as relative size, nature, and term of the power off-take arrangements into the grid and nature of utility off-taker, is the renewable company a utility scale or small-scale/ distributed?
+   * Are there identified labour and working conditions issues in the company’s supply chain?
+   * Does the company possess a supply chain management plan that is commensurate with the risks identified?
+   * In the contract documents with suppliers and contractors, are there representations and warranties to be provided to the company regarding labour and working conditions?
+   * Does the company have the right to inspect and audit compliance its suppliers and contractors and in the event of non-compliance, has the right to terminate contract?
+	 
+	
+
+   6. ESG DD Template for Investment Memos
+Findings from the ESG Due Diligence
+	Risk Category (Category C/C+/B)
+
+
+	Accessibility of grievance redress mechanism (include website link) 
+
+
+
+
+	Sector & sub-sector
+
+
+
+
+	Countries of operation
+	Current risks and opportunities 
+
+
+
+
+	Long-term risks and opportunities 
+
+
+
+
+	Founders’ commitment to and company capacity on ESG risk management
+
+
+
+
+	Highlights of the relevant stakeholder consultations conducted, potential grievances, and risk of retaliation that could emerge and commitment to a stakeholder engagement plan
+
+
+
+
+	Gaps in the fund’s ESG requirements and proposed action plan to address gaps 
+
+
+
+
+	Estimated cost of corrective actions and timeframe
+
+
+
+
+	Limitation of ESG due diligence 
+
+
+
+
+	
+
+________________
+
+
+   7. ESG Action Plan Template 
+Client Information
+	Company name
+	[insert name]
+	Contact person
+	[insert name and e-mail of person responsible for submitting the data]
+	Date of action plan (or update)
+	[insert date YYYY-MM-DD]
+	Action Plan
+	#
+	Document/item
+	Activity
+	Responsibility
+	Deliverable
+	Deadline 
+	Status / Result
+	#1
+	
+
+	[Insert text]
+	[Insert text]
+	[Insert text]
+	YYYY-MM-DD
+	[Insert text]
+	#2
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	…
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+   8. ESG Legal Covenants
+I, […], undertake to carry out my business in a way that avoids, reduces, and compensates for damage to nature, public services, or the well-being of the individuals who work with me and who live in the vicinity, by continuing with or taking the following actions:
+   1. Compliance on environmental, social, and governance topics 
+   * Not engage in any activities delineated within Golden Gate Ventures’ exclusion list; 
+   * Implement a management system, commensurate with the scale and significance of the ESG issues, that ensure a systematic approach to ESG risk assessment and management;
+   * Assess climate risks that may affect the business in the medium to long term, and develop strategies to address these identified risks, to measure, and reduce the carbon footprint of the operations;
+   * Not employ or make use of forced labour or child labour;
+   * Pay wages which meet or exceed industry or legal national minima;
+   * Not discriminate in terms of recruitment, progression, terms and conditions of work and representation, on the basis of personal characteristics unrelated to job requirements;
+   * Adopt an open attitude towards workers’ organizations and respect the right of all workers to join workers’ organizations of their own choosing, to bargain collectively and to carry out their representative functions in the workplace;
+   * Provide reasonable working conditions including a safe and healthy work environment;
+   * Take steps to protect my own health and that of my employees / clients / neighbours;
+   * Adhere to applicable international conventions including, but not limited to, the AIIB Environmental and Social Framework;
+   * Comply with government regulations;
+   * Establish corporate governance practices appropriate to the size and nature of my business;
+   * Do not employ or associate with Politically Exposed Persons (appearing on the UN of OFAC sanctions lists), potentially posing a risk to the Company;
+   * Fully commit to the fight against financial crime and make every effort to remain in full compliance with all applicable financial crime compliance laws, regulations, and standards in the applicable jurisdictions;
+   * Adopt and implement policies and procedures to prevent extortion, bribery, fraud, corruption, and financial crime in accordance with local law requirements and relevant internationally recognized practices;
+   * Properly record, report, and review financial and tax information as required by relevant accounting standards;
+   * Implement a procedure for the reporting of wrongdoing and misconduct in the workplace that includes protection for the reporter and appropriate disciplinary action for anyone found to harass the report.
+   * Provide a grievance redress mechanism (GRM) disclosure that is available to all workers and where appropriate other stakeholder;
+   * Ensure transparent clear communicate to all workers and appropriate other stakeholders regarding access to AIIB’s Project-affected People’s Mechanism (PPM), such communication shall be made readily available and easily understandable to facilitate engagement with the PPM by affected individuals; 
+   2. Action Plan commitment
+   * Commit to implementing the agreed Action Plan and individual action items under the pre-determined timeframe.
+   3. Monitoring and reporting commitment
+   * Measure and monitor ESG and impact related data points as listed on the template supplied with this agreement and the fund managers should have the right to conduct site visits on a periodic basis;
+   * Provide periodic reporting (at least on an annual basis) on proof of the compliance with the above-mentioned items and the progress on the implementation of the action items as mentioned in the Action Plan, if any;
+   * Report on the occurrence of a serious incident, fatality, accident, or injury[31], within 72 hours to Golden Gate Ventures and follow up with a more detailed report with all necessary details on the time, type, nature, cause, consequences as well as remedial activities within 30 days. 
+
+
+________________
+
+
+   9. ESG Flag Report 
+Flag Report (Serious Incident/Fatality Report)
+	Date of Report
+	
+
+	Contact Person
+	
+
+	Name of Portfolio Company Involved
+	
+
+	Date of Investment
+	
+
+	Date and Time of Incident
+	
+
+	Date of Notification to Golden Gate Ventures
+	
+
+	Type of Incident
+	   * Work related (state if construction-related or related to company’s primary business operations)
+   * Security-related
+   * Road-related
+   * Asset-related
+	Victims of Damage
+	   * Fatalities (including number deceased and differentiating between employee/ contractor fatalities and members of the public)
+   * Number injured (mention hospitalizations/ loss of limb)
+   * Loss/ damage to company facilities
+	Immediate Response
+	State immediate response
+	Description of Issue
+	Include the following:
+   * Names of involved
+   * Witnesses
+   * Routine/ non-routine activity being undertaken
+   * Factual statement of what happened
+   * Scene inspection photos/ notes
+   * Sequence of events pre-dating accident
+   * Immediate cause
+   * Unsafe acts in sequence
+   * Unsafe conditions in sequence
+   * Underlying causes of unsafe acts/ conditions (initial view)
+   * Root cause(s)
+   * Corrective/ preventive action for each cause
+   * Actioned, time-bound plan (can be attached)
+   * Interim preventive measures
+   * Other interim actions required and cross-check to other activities/ locations for lessons learned
+	Concluding Statement
+	Outline of accident, key causes, corrective/ preventative actions, final position, and lessons learned
+	Follow Up Date
+	Set up follow up date and populate Action Plan template
+	
+
+________________
+
+
+   10. Terms of Reference for External Consultants
+Golden Gate Ventures commits to employing an external specialist to conduct an analysis of ESG risks for Category B+ investments and manages its resources and capabilities to ensure an external specialist can be employed. 
+The following will address consultants’ terms of reference on environmental, social and governance due diligence and supervision. It will constitute requirements and standards that external consultants need to follow when Golden Gate Ventures contemplates the possibility of investing in companies categorized as risk Category B+ activities, and for on-going supervision of the investment portfolio. This Terms of Reference will ensure that the contracted consultant will perform the environmental and social review of a prospective investment according to Golden Gate Ventures’ ESG management policies and procedures. In line with our policy on ESG matters regarding potential investees’ performance, consultants will make sure that all applicable laws and regulations of the host country are abided.
+Golden Gate Ventures seeks to ensure that all projects are consistent with AIIB’s Environmental and Social Framework, which establishes clear requirements for investee performance and project outcomes. Golden Gate Ventures’ ESG due diligence of a prospective investee shall determine the scope of the ESG conditions of the Company’s financing. Consultants must have a proven knowledge and expertise regarding the assessment of prospective investees sector and activities.
+Consultant Qualifications: The Consultant must have substantial experience in the ESG review of projects located in the markets Golden Gate Ventures is investing in. The Consultant must further be thoroughly knowledgeable of the standards Golden Gate Ventures applies and must familiarize themselves with Golden Gate Ventures’ ESG management policies and procedures.  
+Scope of Work: The Consultant will conduct the ESG appraisal of a prospective investee, as well as the on-going supervision of ESG performance of the portfolio of Category B+ investees consistent with Golden Gate Ventures’ policies and procedures. 
+For new investees’ appraisals, the main tasks include: 
+   * Preliminary Assessment: Review all available information and documentation related to potential investees’ environmental, social and governance impacts and risks. Prepare a list of additional information and/or questions that will be needed to continue the evaluation.
+   * Site Visit and Further Review: Conduct site inspections, review facility-based records, and interview key staff, including both portfolio company personnel and relevant stakeholders (regulatory officials, community leaders, suppliers, and customers). 
+   * ESG Performance Gaps and Necessary Corrective Action Analysis: Analyse project environmental, social and governance performance in relation to Golden Gate Ventures’ ESG policy, including AIIB ESF. Identify these gaps and any corresponding corrective actions that will be necessary. Prioritise these and recommend acceptable and justified implementation schedules. 
+   * Due Diligence Documentation: Prepare a report summarising the results of the ESG due diligence (“ESGDD”). The ESGDD report shall include a summary of the impacts and risks associated with the investee’s activities, including the related performance gaps and corresponding corrective actions that will be necessary for Golden Gate Ventures to invest.
+For supervision of Golden Gate Ventures’ Category B+ investees, the principal tasks include: 
+   * Review Monitoring Reports: Review periodic documentation submitted by investees regarding implementation of any corrective actions included as conditions of investment, as well as overall environmental, social and governance performance. Also, review information submitted by the investee concerning significant incidents or fatalities. Identify any follow-up corrective actions that might be necessary.
+   * If needed, On-site Visit and Further Review: When directed by Golden Gate Ventures, to conduct site visit to confirm ESG performance and/or to investigate incidents. Identify any follow-up corrective actions that might be necessary.
+   * Supervision Documentation: Prepare a report summarizing the findings of the supervision activities. The Consultant shall submit a draft of Due Diligence/Supervision Report in line with the agreed timeline. The final Report shall be submitted within 2 weeks after receiving comments from Golden Gate Ventures on the draft report. All reports should be written and prepared in English and delivered in electronic and hard copy.
+
+
+________________
+
+
+   11. ESG Reporting Requirements 
+For Golden Gates Ventures:
+Reporting period: MM/YYYY-MM/YYYY
+Portfolio updates
+   1. Portfolio breakdown in terms of applicable sectors
+   2. Overview of current pipeline, status and expected categorization
+   3. Transactions declined on ESG grounds
+   4. Exclusion list: confirmation that no investments are undertaken in any of the activities listed in the Exclusion List (or, in cases where a Portfolio Company is found to be partly active in activities included on the Exclusion List, submit a plan to phase out such activities)
+   5. Compliance with all conditions and covenants in Golden Gate Ventures’ Investor Agreements
+ESG Framework related updates
+   6. Name of Golden Gate Ventures’ ESG manager and any other person permanently assigned to the management and measurement of ESG topics
+   7. Updates on changes in the ESG framework
+   8. Difficulties and/or constraints related to the implementation of the ESG framework
+Staffing and ESG capacity building insights
+   9. Number of Golden Gate Ventures’ full-time employees
+   * Broken down by share of employee by gender 
+   * Share of managerial position by gender 
+   10. A summary of trainings undertaken/ planned on environmental management, occupational health, and safety, and emergency response, as well as other ESG topics
+Learnings and action plan for subsequent reporting period
+   11. Overview of internal ESG priorities for the coming year including E&S Policy reviews, updates of relevance of international guidelines and frameworks, specific E&S themes 
+
+
+For each Portfolio Company:
+General information
+   12. Company name
+   13. Location (of incorporation and intended business operations)
+   14. Sector and sub-sector
+   15. Date of inclusion to pipeline for use of AIIB Funds
+   16. Stage of investment and operations (Seed, Series A/B, under construction, or currently operational)
+ESG management (to be reported semi-annually)
+   17. Risk categorization of each investment and rationale behind that categorization
+   18. Summary assessment of ESG risks identified
+   19. Status of (i) ESG performance to date; and (ii) agreed Action Plan (if applicable)
+   20. Employment data:
+   * General information
+   * In country of operation, a standard working week consists of (…) hours
+   * Number and breakdown of direct jobs
+   * Permanent full-time direct Jobs: Nr. of employees working full-time at the end of the reporting period: Unit of measurement- Headcount, Males (…), Females (…)
+   * Permanent part-time direct jobs: Nr. of employees working full-time at the end of the reporting period-Headcount: Males (…), Females (…); Average duration or work per week- Hrs/week: Males (…), Females (…))
+   * Temporary direct jobs, e.g., seasonal, or short-term jobs: Nr. of employees working over the reporting period: Unit of measurement- Headcount: Males (…), Females (…); Average duration or work per week- Hrs/week: Males (…), Females (…)
+   * Insourced / contracted jobs: Nr. of people working on-site for but not employed directly by your institution over the reporting period- Headcount: Males (…), Females (…); Average duration or work per week- Hrs/week: Males (…), Females (…)
+   * Has retrenchment of employees taken place in the reporting period? If yes, please specify number of employees affected and attach copy of retrenchment plan
+   * Compensation data (multiple between highest and lowest wage earned)
+   21. Financial data 
+   * Turnover/Sales/Net interest income Reporting Year (# currency, P&L) 
+   * Turnover/Sales/Net interest income (first year of fund inv., # currency, P&L)
+   * EBITDA (# currency, P&L)
+   * Capital expenditures (# currency, P&L)
+   * Corporate income taxes (# currency, P&L)
+   * Profit after Tax (# currency, P&L) 
+   * Community Development Contributions (e.g., via Corporate Social Responsibility) (# currency) 
+   * % of COGS expenditure and Capex that is spent outside the SEA region vs within SEA 
+   22. Summary of external grievances received, responses, and percentage of these resolved
+For Category B+ & Category FI-B+ Companies
+   23. E&S Assessment and Corrective Action Plan with timeline for actions to manage ESG risks
+   24. Summary of qualified external E&S assessment undertaken and reference to qualification of external expert undertaking assessment
+   25. Details of the last site visit for ESG purposes
+ Where material
+   26. Events of technology disruptions 
+   27. Compliance with the established limits for liquid effluents
+   28. Management procedures for all solid wastes
+   29. Stack emissions for boilers, furnaces, turbines, stacks, and other point sources
+   30. A summary of serious incidents including but not limited to
+   * including spills, fires and other accidents with a description of corrective actions taken (including road traffic accidents)
+   * data breaches 
+   31. Testing of fire and process safety alarms
+   32. Groundwater monitoring 
+   33. Management procedures for protection of biodiversity and ecosystem services
+   34. For renewable energy producers:
+   * MW installed
+   * GWh produced
+Emissions (to be reported semi-annually)
+   35. If Golden Gate Ventures determines that the portfolio company is expected to produce or currently produces significant levels of GHG emissions annually, that an accounting of such emissions is feasible and that the portfolio company has the capacity to do such accounting, companies may be expected to account for their emissions. This can include some or all of the following: 
+   * Scope 1 reporting for businesses that own or control assets requiring fossil fuel combustion (e.g., utilities, industrial companies, transportation companies, etc.) 
+   * Scope 2 reporting for businesses with significant purchases of electricity, steam, heat, or cooling (e.g., commercial enterprises, logistics companies, data centres, etc.)  
+   * Scope 3 reporting for businesses with emissions-intensive value chains (e.g., manufacturers, retailers, financial institutions, etc.)
+
+
+
+
+
+
+________________
+
+
+  
+
+
+
+________________
+[1] Category C: Portfolio company business activities are likely to have minimal or no adverse ESG impacts. Minimal impacts can be successfully mitigated by the portfolio company with well-known and cost-effective mitigation measures.
+[2] A GRM operated by an investee is commensurate to the ESG risks and impacts of the investee’s operations. The GRM functions to receive and faciliate resolution of concerns or complaints of people adversely affected. The Fund ensures that information on the availability of the mechanism is provided to relevant stakeholders in an accessible and understandable manner in locally appropriate languages.
+[3] CDC is now known as British International Investment. FMO, the Dutch Entrepreneurial Development Bank, is formally known as Nederlandse Financierings-Maatschappij voor Ontwikkelingslanden
+[4] AIIB’s risk classification is most applicable to physical infrastructure projects and thus required tailoring. The original wording is available in Appendix C. 
+[5] Higher risk activities may potentially result in: (i) Land Acquisition or Involuntary Resettlement; (ii) risk of adverse impacts on Indigenous Peoples and/or vulnerable groups; (iii) significant risks to or impacts on the environment, community health and safety, biodiversity, and/or cultural resources; (iv) significant retrenchment of more than 20 percent of direct employees and recurrent contractors; and/or (iv) significant occupational health and safety risks. 
+[6] For long-term financing of utility-scale renewables or manufacturing capabilities, the Fund will: (i) require, through representations, covenants or conditions, confirmation that to the best of the borrower’s suppliers’ knowledge, the supplied systems were produced without adverse labor and working conditions; (ii) require investees to have procedures and capacity to verify and monitor its supply chain requirements; and (iii) request investees to transition from the use of suppliers involved in any adverse labor and working conditions. 
+[7] We rely on resources such as the BII Toolkit on Company E&S Management Systems and the IFC ESMS Implementation Handbook to guide investees in developing an ESG management system or emergency preparedness and response systems. 
+[8] International Waterway means: (i) a body of surface water that: (A) forms a boundary between, or flows through, two or more countries; (B) is recognized as a necessary channel of communication between the open sea and two or more countries; (C) is a tributary or component of any body of water described above in subparagraph 2.1(b)(i)(A) or (B); or (D) is a bay, gulf, strait, or channel and that is bounded by two or more countries; or (ii) a body of trans-boundary groundwater. The body of water may be a river, lake, canal, bay, gulf,strait,sea, aquifer or similar body of water.
+[9] De Facto Government means a government that comes into, or remains in, power by means not provided for in the Member’s constitution or other applicable laws of the country, such as by a coup d’état, revolution, usurpation, abrogation or suspension of the constitution or other relevant laws.
+[10] UN Security Council Measure means a measure decided by the UN Security Council under Chapter VII of the Charter of the UN.
+[11] See AIIB’s Environmental and Social Framework for more information 
+[12] Forced eviction is defined as the permanent or temporary removal, against the will of individuals, families and/or communities, from homes or land (or both) which they occupy, without the provision of, or access to, appropriate forms of legal or other protection. See AIIB’s ESS 2 for more information..
+[13] Projects functionally related to coal means associated facilities that are dedicated to enable the mining and use of coal or projects that would not be carried out without dedicated coal-based power supply. In order to assist Clients to reduce their coal use, the Bank may support Projects that aim at early retirement of coal plants, replacement of coal with lower-carbon fuel sources, or Projects for decommissioning, remediation, and redevelopment of affected coal facility sites and communities.
+[14] Forced labor means any work or service not voluntarily performed that is exacted from an individual under threat of force or penalty (including any kind of forced or compulsory labor, such as indentured labor, bonded labor or similar labor-contracting arrangements, or labor by trafficked persons).
+[15] For purposes of this List, harmful or exploitative forms of child labor means the employment of children under the age of 18 for work which by its nature or the circumstances in which it is carried out is likely to jeopardize their health, safety or morals. However, if the laws or regulations of the country in which the Project is located provide, in conformity with the International Labour Organization’s Minimum Age Convention, 1973, that children at least 16 years of age may be employed for such work on condition that their health, safety and morals are fully protected and that they have received adequate specific instruction or vocational training in the relevant branch of activity, then child labor means employment of children for work that does not comply with these laws and regulations.
+[16] PCBs: Polychlorinated biphenyls are a group of highly toxic chemicals. PCBs are likely to be found in oil-filled electrical transformers, capacitors and switchgear dating from 1950 to 1985.
+[17] United Nations Consolidated List of Products whose Consumption and/or Sale have been Banned, Withdrawn, Severely Restricted or not Approved by Governments; Convention on the Prior Informed Consent Procedures for Certain Hazardous Chemicals and Pesticides in International Trade (Rotterdam Convention); Stockholm Convention on Persistent Organic Pollutants; World Health Organization Recommended Classification of Pesticides by Hazard. A list of pharmaceutical products subject to phase outs or bans is available at https://www.who.int/medicines/areas/quality_safety/safety_efficacy/pharm_ restrictions/en/. A list of pesticides, herbicides and other hazardous substances subject to phase outs or bans is available at http://www.pic.int/TheConvention/Chemicals/AnnexIIIChemicals/tabid/1132/language/en-US/Default.aspx
+[18] Ozone Depleting Substances (ODSs): Chemical compounds which react with and deplete stratospheric ozone, resulting in the widely publicized “ozone holes.” The Montreal Protocol on Substances that Deplete the Ozone Layer lists ODSs and their target reduction and phase out dates. A list of the chemical compounds regulated by the Montreal Protocol, which includes aerosols, refrigerants, foam blowing agents, solvents and fire protection agents, together with details of signatory countries and phase out target dates, is available from the United Nations Environment Programme, https://ozone.unep.org/treaties/montreal-protocol 
+[19] The Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES). A list of CITES listed species is available from the CITES secretariat, https://www.cites.org/eng/disc/species.php 
+[20] Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal, see http://www.basel.int 
+[21] This does not apply to Clients who are not substantially involved in these activities. Not substantially involved means that the activity concerned is ancillary to the entity’s primary operations.
+[22] This does not apply to Clients who are not substantially involved in these activities. Not substantially involved means that the activity concerned is ancillary to the entity’s primary operations.
+[23] This does not apply to Clients who are not substantially involved in these activities. Not substantially involved means that the activity concerned is ancillary to the entity’s primary operations.
+[24] In special circumstances, if necessary to enable a Client to transition from the use of bonded asbestos to alternative materials, the Bank may agree with the Client on a reasonable transition period, provided that the asbestos content of the materials being used is less than 20 percent. Projects involving disposal of asbestos are not prohibited, provided a suitable asbestos management plan is adopted for such disposal.
+[25] Convention on the Conservation of Migratory Species of Wild Animals (Bonn Convention) - https://www.cms.int/; Convention on Wetlands of International Importance, especially as Waterfowl Habitat (Ramsar Convention) - https://www.ramsar.org/; Convention Concerning the Protection of the World Cultural and Natural Heritage - https://whc.unesco.org/en/convention/; Convention on Biological Diversity - https://www.cbd.int/ 
+[26] Noncompliance with International Maritime Organisation (IMO) requirements: tankers that do not have all required International Convention for the Prevention of Pollution from Ships (MARPOL) or International Convention for the Safety of Life at Sea (SOLAS) certificates (including, without limitation, International Safety Management Code compliance), tankers banned by the Paris Memorandum of Understanding on Port State Control (Paris MOU), and tankers due for phase out under MARPOL regulation 13G. No single hull tanker over 25 years old should be used. http://www.imo.org/en/About/Convention 
+[27] MDBs are working on the approach to assess the Paris alignment of buildings and the role of certification schemes. This approach can also take into account the impact of materials on the alignment of buildings with the low-carbon pathways envisioned by the Paris Agreement.
+[28] Energy-consuming installations are those beyond lighting and routine maintenance such as watering. Examples are major built-up area (i.e., buildings) or energy-intensive installations (e.g., fountains or playground and recreational equipment that need a non-renewable power source).
+[29] Higher risk activities may potentially result in: (i) Land Acquisition or Involuntary Resettlement; (ii) risk of adverse impacts on Indigenous Peoples and/or vulnerable groups; (iii) significant risks to or impacts on the environment, community health and safety, biodiversity, and/or cultural resources; (iv) significant retrenchment of more than 20 percent of direct employees and recurrent contractors; and/or (iv) significant occupational health and safety risks. 
+[30] Although Golden Gate Ventures requires all investees to meet relevant local legislation, it is possible that in certain markets local legislation around data privacy and client protection may be considered insufficient to protect client interests. In this case, if the investee has not previously incorporated responsible data privacy practices, Golden Gate Ventures will identify and manage this during the investment process. 
+[31] Serious incidents include, but are not limited to, explosions, spills that result in material pollution, any workplace accidents that result in death or lost time of greater than one week, or any work stoppage as a result of labour unrest, community unrest or security incidents.

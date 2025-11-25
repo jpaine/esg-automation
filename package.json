@@ -9,13 +9,21 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.1",
+    "anthropic": "^0.0.0",
+    "docx": "^9.5.1",
+    "mammoth": "^1.11.0",
     "next": "16.0.3",
+    "openai": "^6.9.1",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^2.2.2",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/pdf-parse": "^1.1.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",

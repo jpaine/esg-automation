@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ESG Form Automation System
 
-## Getting Started
+Automated ESG Due Diligence Questionnaire (DDQ) and Investment Memo (IM) generation system using LLM analysis against the Golden Gate Ventures ESG Risk Management Framework.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Document Upload**: Upload company documents (PDF, Word, text) to extract information
+- **Company Information Form**: Structured form to collect company details
+- **Automated DDQ Generation**: LLM-powered assessment against ESG framework
+- **Automated IM Generation**: Investment memo generation based on DDQ results
+- **Document Export**: Download filled DDQ and IM as Word documents
+
+## Setup
+
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Set up environment variables**:
+   Create a `.env.local` file:
+   ```env
+   OPENAI_API_KEY=your_openai_api_key_here
+   # Optional: Use Anthropic instead
+   ANTHROPIC_API_KEY=your_anthropic_api_key_here
+   ```
+
+3. **Run development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   npm start
+   ```
+
+## Deployment to Vercel
+
+1. **Push to GitHub** (or your Git provider)
+
+2. **Import to Vercel**:
+   - Go to [vercel.com](https://vercel.com)
+   - Click "Add New Project"
+   - Import your repository
+
+3. **Configure Environment Variables**:
+   - In Vercel project settings, add:
+     - `OPENAI_API_KEY` (required)
+     - `ANTHROPIC_API_KEY` (optional)
+
+4. **Deploy**:
+   - Vercel will automatically deploy on push
+   - Or click "Deploy" in the dashboard
+
+## Usage
+
+1. **Upload Documents**: Upload company documents (PDF, Word, or text files)
+2. **Fill Company Info**: Complete the company information form (auto-filled from documents if available)
+3. **Review DDQ**: Review the generated DDQ assessment and download if needed
+4. **Generate IM**: Generate the Investment Memo based on DDQ results
+5. **Download**: Download the completed Investment Memo as a Word document
+
+## Architecture
+
+- **Frontend**: Next.js 14+ with App Router, TypeScript, Tailwind CSS
+- **Backend**: Next.js API Routes
+- **LLM**: OpenAI GPT-4 or Anthropic Claude
+- **Document Processing**: pdf-parse, mammoth
+- **Document Generation**: docx library
+
+## File Structure
+
+```
+/
+├── app/
+│   ├── page.tsx (main UI)
+│   ├── api/
+│   │   ├── upload/route.ts
+│   │   ├── extract-info/route.ts
+│   │   ├── generate-ddq/route.ts
+│   │   ├── generate-im/route.ts
+│   │   ├── download-ddq/route.ts
+│   │   └── download-im/route.ts
+│   └── layout.tsx
+├── lib/
+│   ├── llm-client.ts (LLM API wrapper)
+│   ├── rmf-loader.ts (RMF document loader)
+│   ├── document-processor.ts (file parsing)
+│   ├── document-generator.ts (Word doc generation)
+│   ├── ddq-generator.ts (DDQ generation logic)
+│   ├── im-generator.ts (IM generation logic)
+│   └── types.ts (TypeScript types)
+├── public/
+│   └── ESG_RMF.txt (knowledge base)
+└── vercel.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Notes
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- The ESG_RMF.txt file is included in full in LLM prompts (no RAG/vector DB needed)
+- The system uses direct LLM API calls (no agent framework needed)
+- All processing happens server-side via API routes
+- Documents are generated as Word (.docx) files

@@ -1,13 +1,27 @@
 import OpenAI from 'openai';
 import Anthropic from '@anthropic-ai/sdk';
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+// Lazy initialization to avoid build-time errors when env vars aren't set
+let openaiInstance: OpenAI | null = null;
+let anthropicInstance: Anthropic | null = null;
 
-const anthropic = new Anthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY,
-});
+function getOpenAI(): OpenAI {
+  if (!openaiInstance) {
+    openaiInstance = new OpenAI({
+      apiKey: process.env.OPENAI_API_KEY,
+    });
+  }
+  return openaiInstance;
+}
+
+function getAnthropic(): Anthropic {
+  if (!anthropicInstance) {
+    anthropicInstance = new Anthropic({
+      apiKey: process.env.ANTHROPIC_API_KEY,
+    });
+  }
+  return anthropicInstance;
+}
 
 type LLMProvider = 'openai' | 'anthropic';
 
@@ -59,6 +73,7 @@ export async function callLLM(
   
   try {
     if (provider === 'anthropic' && process.env.ANTHROPIC_API_KEY) {
+      const anthropic = getAnthropic();
       const message = await anthropic.messages.create({
         model: 'claude-3-5-sonnet-20241022',
         max_tokens: 4096,
@@ -94,6 +109,7 @@ export async function callLLM(
         throw error;
       }
       
+      const openai = getOpenAI();
       const response = await openai.chat.completions.create({
         model: 'gpt-4-turbo-preview',
         messages: [

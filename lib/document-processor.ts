@@ -59,13 +59,13 @@ export async function extractTextFromFile(
       console.log('[INFO] Starting PDF extraction with pdfjs-dist...');
       const parseStartTime = Date.now();
       
-      // Configure pdfjs-dist for serverless (disable workers completely)
-      // In serverless, we need to use the legacy build which doesn't require workers
-      // Set workerSrc to disable workers entirely
+      // Configure pdfjs-dist for serverless
+      // Use CDN worker URL to avoid file system issues in serverless environments
+      // The worker will run on the main thread in serverless (acceptable for our use case)
       if (pdfjsLib.GlobalWorkerOptions) {
-        // Use a data URL for worker to avoid file system issues, or disable completely
-        // For serverless, we'll use the legacy build which can work without workers
-        pdfjsLib.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
+        // Use CDN worker URL with https protocol - required for serverless
+        const pdfjsVersion = pdfjsLib.version || '4.0.379';
+        pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsVersion}/pdf.worker.min.mjs`;
       }
       
       // Load the PDF document with options that work in serverless

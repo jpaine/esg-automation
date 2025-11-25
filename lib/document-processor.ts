@@ -1,4 +1,6 @@
 import mammoth from 'mammoth';
+// Use legacy build for Node.js/serverless compatibility
+import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf.js';
 
 export interface ExtractedText {
   text: string;
@@ -51,69 +53,124 @@ export async function extractTextFromFile(
   if (fileType === 'application/pdf' || fileName.endsWith('.pdf')) {
     console.log(`[INFO] Processing PDF file: ${file.name}`);
     
-    // Use pdf-parse directly (more reliable in Node.js/Next.js serverless environments)
-    // pdfjs-dist has compatibility issues in serverless environments
     try {
-      console.log('[INFO] Starting PDF extraction with pdf-parse...');
-      const pdfParse = require('pdf-parse');
+      console.log('[INFO] Starting PDF extraction with pdfjs-dist...');
       const parseStartTime = Date.now();
       
-      // Parse PDF with options
-      const data = await pdfParse(Buffer.from(buffer), { 
-        max: 0, // Parse all pages
+      // Configure pdfjs-dist for serverless (disable workers, use legacy build)
+      // This avoids worker file issues in serverless environments
+      pdfjsLib.GlobalWorkerOptions.workerSrc = ''; // Disable workers for serverless
+      
+      // Load the PDF document
+      const loadingTask = pdfjsLib.getDocument({
+        data: new Uint8Array(buffer),
+        useSystemFonts: true,
+        verbosity: 0, // Suppress warnings
       });
+      
+      const pdfDocument = await loadingTask.promise;
+      const numPages = pdfDocument.numPages;
+      
+      console.log(`[INFO] PDF loaded: ${numPages} pages`);
+      
+      // Extract text from all pages
+      let fullText = '';
+      const pageTexts: string[] = [];
+      
+      for (let pageNum = 1; pageNum <= numPages; pageNum++) {
+        const page = await pdfDocument.getPage(pageNum);
+        const textContent = await page.getTextContent();
+        
+        // Combine text items from the page
+        const pageText = textContent.items
+          .map((item: any) => {
+            if ('str' in item) {
+              return item.str;
+            }
+            return '';
+          })
+          .join(' ')
+          .trim();
+        
+        if (pageText) {
+          pageTexts.push(pageText);
+          fullText += pageText + '\n\n';
+        }
+      }
+      
       const parseTime = Date.now() - parseStartTime;
       
-      console.log(`[INFO] pdf-parse extraction completed in ${parseTime}ms`, {
-        pages: data.numpages,
-        textLength: data.text?.length || 0,
-        hasText: !!data.text && data.text.trim().length > 0,
+      console.log(`[INFO] pdfjs-dist extraction completed in ${parseTime}ms`, {
+        pages: numPages,
+        textLength: fullText.length,
+        hasText: fullText.trim().length > 0,
+        pagesWithText: pageTexts.filter(t => t.length > 0).length,
       });
       
-      if (!data.text || !data.text.trim()) {
+      if (!fullText || !fullText.trim()) {
         const error = new Error('No text extracted from PDF - document may be image-based, encrypted, or empty');
-        logError('pdf-parse returned empty text', error, {
+        logError('pdfjs-dist returned empty text', error, {
           fileInfo,
-          numPages: data.numpages,
+          numPages,
           parseTime,
-          hasMetadata: !!data.info,
         });
         throw error;
       }
       
+      // Get document metadata
+      const metadata = await pdfDocument.getMetadata();
+      const title = (metadata?.info as any)?.Title || null;
+      
       const extractionTime = Date.now() - startTime;
-      console.log(`[INFO] PDF extraction successful: ${data.text.length} characters from ${data.numpages} pages in ${extractionTime}ms`);
+      console.log(`[INFO] PDF extraction successful: ${fullText.length} characters from ${numPages} pages in ${extractionTime}ms`);
       
       return {
-        text: data.text.trim(),
+        text: fullText.trim(),
         metadata: {
-          pages: data.numpages,
-          title: data.info?.Title,
+          pages: numPages,
+          title: title || undefined,
         },
       };
     } catch (parseError) {
       const errorMessage = parseError instanceof Error ? parseError.message : 'Unknown error';
-      logError('PDF extraction with pdf-parse failed', parseError, {
+      logError('PDF extraction with pdfjs-dist failed', parseError, {
         fileInfo,
-        method: 'pdf-parse',
+        method: 'pdfjs-dist',
         errorMessage,
       });
       
       // Check for specific error types and provide helpful messages
-      if (errorMessage.includes('Invalid PDF') || errorMessage.includes('corrupted') || errorMessage.includes('malformed')) {
+      if (errorMessage.includes('Invalid PDF') || errorMessage.includes('corrupted') || errorMessage.includes('malformed') || errorMessage.includes('Invalid PDF structure')) {
         throw new Error('The PDF file appears to be corrupted or invalid. Please try a different file.');
       }
       
-      if (errorMessage.includes('encrypted') || errorMessage.includes('password')) {
+      if (errorMessage.includes('encrypted') || errorMessage.includes('password') || errorMessage.includes('password required')) {
         throw new Error('The PDF file is encrypted or password-protected. Please remove the password and try again.');
       }
       
-      if (errorMessage.includes('No text extracted') || errorMessage.includes('image-based')) {
+      if (errorMessage.includes('No text extracted') || errorMessage.includes('image-based') || errorMessage.includes('No text content')) {
         throw new Error('No text could be extracted from the PDF. The document may be image-based (scanned). Please use OCR or convert to text format.');
       }
       
-      if (errorMessage.includes('worker') || errorMessage.includes('pdf.worker') || errorMessage.includes('Cannot find module')) {
-        throw new Error('PDF parsing configuration issue. Please try converting the PDF to text format or use a Word document instead.');
+      // Fallback: Try pdf-parse as backup if pdfjs-dist fails
+      console.log('[INFO] Attempting fallback to pdf-parse...');
+      try {
+        const pdfParse = require('pdf-parse');
+        const data = await pdfParse(Buffer.from(buffer), { max: 0 });
+        
+        if (data.text && data.text.trim()) {
+          console.log('[INFO] Fallback pdf-parse succeeded');
+          return {
+            text: data.text.trim(),
+            metadata: {
+              pages: data.numpages,
+              title: data.info?.Title,
+            },
+          };
+        }
+      } catch (fallbackError) {
+        console.log('[INFO] Fallback pdf-parse also failed');
+        // Continue to throw original error
       }
       
       throw new Error(`Failed to parse PDF: ${errorMessage}. Please try converting the PDF to text format or use a Word document instead.`);

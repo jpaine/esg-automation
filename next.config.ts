@@ -3,16 +3,19 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   // Turbopack config (Next.js 16 default)
   turbopack: {},
-  // Webpack config for compatibility (if needed)
+  // Webpack config for compatibility
   webpack: (config, { isServer }) => {
     if (isServer) {
-      // Handle pdf-parse on server side
+      // Handle pdfjs-dist on server side - externalize canvas/jsdom to reduce bundle size
       config.externals = [...(config.externals || []), 'canvas', 'jsdom'];
-      // Fix for pdf-parse worker issues - disable worker
+      
+      // Configure pdfjs-dist to work in serverless
+      // Note: We import the legacy build directly in code, so no alias needed
       config.resolve.alias = {
         ...config.resolve.alias,
       };
-      // Ignore worker files
+      
+      // Ignore worker files (we disable workers in code)
       config.module = config.module || {};
       config.module.rules = config.module.rules || [];
       config.module.rules.push({

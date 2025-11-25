@@ -21,6 +21,7 @@ Automated ESG Due Diligence Questionnaire (DDQ) and Investment Memo (IM) generat
    Create a `.env.local` file:
    ```env
    OPENAI_API_KEY=your_openai_api_key_here
+   GEMINI_API_KEY=your_gemini_api_key_here
    # Optional: Use Anthropic instead
    ANTHROPIC_API_KEY=your_anthropic_api_key_here
    ```
@@ -48,6 +49,7 @@ Automated ESG Due Diligence Questionnaire (DDQ) and Investment Memo (IM) generat
 3. **Configure Environment Variables**:
    - In Vercel project settings, add:
      - `OPENAI_API_KEY` (required)
+     - `GEMINI_API_KEY` (required for PDF OCR)
      - `ANTHROPIC_API_KEY` (optional)
 
 4. **Deploy**:
@@ -67,7 +69,7 @@ Automated ESG Due Diligence Questionnaire (DDQ) and Investment Memo (IM) generat
 - **Frontend**: Next.js 14+ with App Router, TypeScript, Tailwind CSS
 - **Backend**: Next.js API Routes
 - **LLM**: OpenAI GPT-4 or Anthropic Claude
-- **Document Processing**: pdf-parse, mammoth
+- **Document Processing**: pdf-parse (primary), Google Gemini API (OCR fallback), mammoth
 - **Document Generation**: docx library
 
 ## File Structure

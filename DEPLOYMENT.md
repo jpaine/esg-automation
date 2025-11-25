@@ -45,6 +45,7 @@ git push -u origin main
    - Add:
      ```
      OPENAI_API_KEY = your_openai_api_key_here
+     GEMINI_API_KEY = your_gemini_api_key_here
      ```
    - Optional:
      ```
@@ -108,6 +109,7 @@ git push -u origin main
 | Variable | Required | Description |
 |----------|----------|------------|
 | `OPENAI_API_KEY` | Yes | OpenAI API key for GPT-4 |
+| `GEMINI_API_KEY` | Yes | Google Gemini API key for PDF OCR (fallback for image-based PDFs) |
 | `ANTHROPIC_API_KEY` | No | Anthropic API key for Claude (alternative) |
 
 ## Notes

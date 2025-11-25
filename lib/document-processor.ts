@@ -1,6 +1,8 @@
 import mammoth from 'mammoth';
-// Use legacy build for Node.js/serverless compatibility
-import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf.js';
+// Use pdfjs-dist legacy build for Node.js/serverless compatibility
+// The legacy build is optimized for server-side use and doesn't require workers
+// @ts-ignore - legacy build path is not in types
+import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf.mjs';
 
 export interface ExtractedText {
   text: string;
@@ -57,9 +59,12 @@ export async function extractTextFromFile(
       console.log('[INFO] Starting PDF extraction with pdfjs-dist...');
       const parseStartTime = Date.now();
       
-      // Configure pdfjs-dist for serverless (disable workers, use legacy build)
+      // Configure pdfjs-dist for serverless (disable workers)
       // This avoids worker file issues in serverless environments
-      pdfjsLib.GlobalWorkerOptions.workerSrc = ''; // Disable workers for serverless
+      // Use legacy build path if available, otherwise disable workers
+      if (typeof pdfjsLib.GlobalWorkerOptions !== 'undefined') {
+        pdfjsLib.GlobalWorkerOptions.workerSrc = ''; // Disable workers for serverless
+      }
       
       // Load the PDF document
       const loadingTask = pdfjsLib.getDocument({

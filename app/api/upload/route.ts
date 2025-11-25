@@ -43,10 +43,10 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Validate file size (Vercel has 4.5MB limit for request body, we'll use 4MB to be safe)
-    const MAX_FILE_SIZE = 4 * 1024 * 1024; // 4MB in bytes
+    // Validate file size (Vercel has 4.5MB limit for request body)
+    const MAX_FILE_SIZE = 4.5 * 1024 * 1024; // 4.5MB in bytes
     if (file.size > MAX_FILE_SIZE) {
-      const error = new Error(`File size ${(file.size / 1024 / 1024).toFixed(2)}MB exceeds maximum allowed size of 4MB`);
+      const error = new Error(`File size ${(file.size / 1024 / 1024).toFixed(2)}MB exceeds maximum allowed size of 4.5MB`);
       logAPIError('File size validation failed', error, { 
         requestId,
         fileName: file.name,
@@ -55,7 +55,7 @@ export async function POST(request: NextRequest) {
       });
       return NextResponse.json(
         { 
-          error: `File size (${(file.size / 1024 / 1024).toFixed(2)}MB) exceeds maximum allowed size of 4MB. Please upload a smaller file.`,
+          error: `File size (${(file.size / 1024 / 1024).toFixed(2)}MB) exceeds maximum allowed size of 4.5MB. Please upload a smaller file.`,
           requestId,
         },
         { status: 413 }

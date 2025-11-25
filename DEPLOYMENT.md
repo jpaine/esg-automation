@@ -7,7 +7,7 @@
 - [x] vercel.json configured with 60s timeout
 - [x] Environment variables documented
 - [x] Unused dependencies removed (pdfjs-dist)
-- [x] File size validation added (4MB limit)
+- [x] File size validation added (4.5MB limit)
 - [x] Environment variable validation added to API routes
 
 ## Deployment Steps
@@ -87,7 +87,7 @@ git push -u origin main
 - Error messages will now indicate if API key is missing
 
 **If file upload fails:**
-- Maximum file size is 4MB (Vercel limit is 4.5MB, we use 4MB for safety)
+- Maximum file size is 4.5MB (Vercel's request body limit)
 - Error message will indicate if file is too large
 - For larger files, consider splitting or compressing before upload
 
@@ -116,7 +116,7 @@ git push -u origin main
 - API routes have a 60-second timeout (configured in vercel.json)
 - All processing happens server-side via API routes
 - No database required - stateless operation
-- Maximum file upload size: 4MB (Vercel limit is 4.5MB)
+- Maximum file upload size: 4.5MB (Vercel's request body limit)
 - RMF loader uses file system in development, fetch in production
 - Environment variables must be set in Vercel dashboard (not .env files)
 
@@ -125,7 +125,7 @@ git push -u origin main
 After deployment, verify:
 1. ✅ Homepage loads correctly
 2. ✅ File upload accepts PDF/Word/TXT files
-3. ✅ File size validation works (try uploading >4MB file)
+3. ✅ File size validation works (try uploading >4.5MB file)
 4. ✅ Company info extraction works
 5. ✅ DDQ generation completes (may take 30-60s)
 6. ✅ IM generation completes (may take 30-60s)

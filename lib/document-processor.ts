@@ -44,7 +44,8 @@ async function extractTextWithGemini(buffer: ArrayBuffer, fileName: string): Pro
 
   try {
     const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-pro' });
+    // Use gemini-2.5-pro for multimodal support (PDFs)
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-pro' });
 
     // Convert ArrayBuffer to base64 for Gemini API
     const base64Pdf = Buffer.from(buffer).toString('base64');

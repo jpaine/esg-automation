@@ -50,20 +50,41 @@ async function extractTextWithGemini(buffer: ArrayBuffer, fileName: string): Pro
     // Convert ArrayBuffer to base64 for Gemini API
     const base64Pdf = Buffer.from(buffer).toString('base64');
 
-    const prompt = `Extract all text from this PDF document. Return only the extracted text content, preserving the structure and formatting as much as possible. Include all headings, paragraphs, lists, tables, and any other text content. If the document contains images or scanned pages, extract any visible text from them as well.`;
+    // Optimize prompt for faster processing
+    const prompt = `Extract all text from this PDF document. Return only the extracted text content, preserving structure. Include headings, paragraphs, lists, and tables.`;
 
-    const result = await model.generateContent([
-      {
-        inlineData: {
-          data: base64Pdf,
-          mimeType: 'application/pdf',
+    // Add timeout wrapper for the API call
+    const timeoutPromise = new Promise((_, reject) => {
+      setTimeout(() => reject(new Error('Gemini API call timed out after 4 minutes')), 240000); // 4 minutes
+    });
+
+    const result = await Promise.race([
+      model.generateContent([
+        {
+          inlineData: {
+            data: base64Pdf,
+            mimeType: 'application/pdf',
+          },
         },
-      },
-      prompt,
-    ]);
+        prompt,
+      ]),
+      timeoutPromise,
+    ]) as Awaited<ReturnType<typeof model.generateContent>>;
 
-    const response = result.response;
-    const text = response.text();
+    // Get text from response - ensure we only read it once
+    let text: string;
+    try {
+      text = result.response.text();
+    } catch (textError) {
+      // If text() fails, try accessing candidates directly
+      const candidates = result.response.candidates;
+      if (candidates && candidates.length > 0 && candidates[0].content) {
+        const parts = candidates[0].content.parts;
+        text = parts.map((part: any) => part.text || '').join('');
+      } else {
+        throw new Error('Failed to extract text from Gemini response');
+      }
+    }
 
     if (!text || !text.trim()) {
       throw new Error('Gemini API returned empty text');
@@ -103,6 +124,10 @@ async function extractTextWithGemini(buffer: ArrayBuffer, fileName: string): Pro
     
     if (errorMessage.includes('size') || errorMessage.includes('too large')) {
       throw new Error('The PDF file is too large. Please try a smaller file or split it into multiple files.');
+    }
+    
+    if (errorMessage.includes('timed out') || errorMessage.includes('timeout')) {
+      throw new Error('PDF processing timed out. The file may be too large or complex. Please try a smaller file or split it into multiple files.');
     }
     
     throw new Error(`Failed to extract text from PDF: ${errorMessage}. Please try converting the PDF to text format or use a Word document instead.`);

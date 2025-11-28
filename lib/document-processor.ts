@@ -1,5 +1,4 @@
 import mammoth from 'mammoth';
-// pdf-parse uses CommonJS, so we need to use require() or dynamic import
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 export interface ExtractedText {
@@ -31,15 +30,16 @@ function logError(context: string, error: unknown, additionalInfo?: Record<strin
 }
 
 /**
- * Extract text from PDF using Gemini API (for OCR/image-based PDFs)
+ * Extract text from PDF using Gemini API
+ * Works for both text-based and image-based (scanned) PDFs
  */
 async function extractTextWithGemini(buffer: ArrayBuffer, fileName: string): Promise<ExtractedText> {
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
-    throw new Error('GEMINI_API_KEY is not set. Cannot use Gemini API for OCR.');
+    throw new Error('GEMINI_API_KEY is not set. Cannot use Gemini API for PDF extraction.');
   }
 
-  console.log('[INFO] Attempting PDF extraction with Gemini API (OCR)...');
+  console.log('[INFO] Starting PDF extraction with Gemini API...');
   const startTime = Date.now();
 
   try {
@@ -49,7 +49,7 @@ async function extractTextWithGemini(buffer: ArrayBuffer, fileName: string): Pro
     // Convert ArrayBuffer to base64 for Gemini API
     const base64Pdf = Buffer.from(buffer).toString('base64');
 
-    const prompt = `Extract all text from this PDF document. Return only the extracted text content, preserving the structure and formatting as much as possible. Include all headings, paragraphs, lists, tables, and any other text content.`;
+    const prompt = `Extract all text from this PDF document. Return only the extracted text content, preserving the structure and formatting as much as possible. Include all headings, paragraphs, lists, tables, and any other text content. If the document contains images or scanned pages, extract any visible text from them as well.`;
 
     const result = await model.generateContent([
       {
@@ -79,11 +79,32 @@ async function extractTextWithGemini(buffer: ArrayBuffer, fileName: string): Pro
     };
   } catch (error) {
     const extractionTime = Date.now() - startTime;
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+    
     logError('Gemini API extraction failed', error, {
       fileName,
       extractionTime,
+      errorMessage,
     });
-    throw error;
+    
+    // Provide helpful error messages
+    if (errorMessage.includes('GEMINI_API_KEY') || errorMessage.includes('API key') || errorMessage.includes('authentication')) {
+      throw new Error('Gemini API authentication failed. Please check your GEMINI_API_KEY environment variable.');
+    }
+    
+    if (errorMessage.includes('Invalid PDF') || errorMessage.includes('corrupted') || errorMessage.includes('malformed')) {
+      throw new Error('The PDF file appears to be corrupted or invalid. Please try a different file.');
+    }
+    
+    if (errorMessage.includes('encrypted') || errorMessage.includes('password')) {
+      throw new Error('The PDF file is encrypted or password-protected. Please remove the password and try again.');
+    }
+    
+    if (errorMessage.includes('size') || errorMessage.includes('too large')) {
+      throw new Error('The PDF file is too large. Please try a smaller file or split it into multiple files.');
+    }
+    
+    throw new Error(`Failed to extract text from PDF: ${errorMessage}. Please try converting the PDF to text format or use a Word document instead.`);
   }
 }
 
@@ -106,101 +127,10 @@ export async function extractTextFromFile(
   const fileType = file.type;
   const fileName = file.name.toLowerCase();
 
-  // Handle PDF files
+  // Handle PDF files - use Gemini API only
   if (fileType === 'application/pdf' || fileName.endsWith('.pdf')) {
     console.log(`[INFO] Processing PDF file: ${file.name}`);
-    
-    // Primary method: pdf-parse (works well in serverless, no workers needed)
-    try {
-      console.log('[INFO] Starting PDF extraction with pdf-parse...');
-      const parseStartTime = Date.now();
-      
-      // Use dynamic require for pdf-parse (CommonJS module)
-      const pdfParse = require('pdf-parse');
-      const data = await pdfParse(Buffer.from(buffer), { max: 0 });
-      
-      const parseTime = Date.now() - parseStartTime;
-      
-      console.log(`[INFO] pdf-parse extraction completed in ${parseTime}ms`, {
-        pages: data.numpages,
-        textLength: data.text?.length || 0,
-        hasText: !!(data.text && data.text.trim()),
-      });
-      
-      // Check if we got meaningful text
-      if (data.text && data.text.trim().length > 50) {
-        // Good extraction - return it
-        const extractionTime = Date.now() - startTime;
-        console.log(`[INFO] PDF extraction successful: ${data.text.length} characters from ${data.numpages} pages in ${extractionTime}ms`);
-        
-        return {
-          text: data.text.trim(),
-          metadata: {
-            pages: data.numpages,
-            title: data.info?.Title,
-          },
-        };
-      } else if (data.text && data.text.trim().length > 0) {
-        // Very little text extracted - might be image-based, but return what we have
-        console.log('[INFO] pdf-parse extracted minimal text - document may be image-based');
-        return {
-          text: data.text.trim(),
-          metadata: {
-            pages: data.numpages,
-            title: data.info?.Title,
-          },
-        };
-      } else {
-        // No text extracted - likely image-based PDF, try Gemini OCR
-        throw new Error('No text extracted - document may be image-based');
-      }
-    } catch (parseError) {
-      const errorMessage = parseError instanceof Error ? parseError.message : 'Unknown error';
-      logError('PDF extraction with pdf-parse failed', parseError, {
-        fileInfo,
-        method: 'pdf-parse',
-        errorMessage,
-      });
-      
-      // Check for specific error types
-      if (errorMessage.includes('Invalid PDF') || errorMessage.includes('corrupted') || errorMessage.includes('malformed')) {
-        throw new Error('The PDF file appears to be corrupted or invalid. Please try a different file.');
-      }
-      
-      if (errorMessage.includes('encrypted') || errorMessage.includes('password')) {
-        throw new Error('The PDF file is encrypted or password-protected. Please remove the password and try again.');
-      }
-      
-      // Fallback: Try Gemini API for OCR (image-based PDFs)
-      if (errorMessage.includes('No text extracted') || errorMessage.includes('image-based') || errorMessage.includes('minimal text')) {
-        console.log('[INFO] PDF appears to be image-based, attempting OCR with Gemini API...');
-        try {
-          return await extractTextWithGemini(buffer, file.name);
-        } catch (geminiError) {
-          const geminiErrorMessage = geminiError instanceof Error ? geminiError.message : 'Unknown error';
-          logError('Gemini API fallback failed', geminiError, {
-            fileInfo,
-            originalError: errorMessage,
-          });
-          
-          // If Gemini also fails, provide helpful error
-          throw new Error(`Failed to extract text from PDF. The document may be image-based (scanned). Gemini OCR also failed: ${geminiErrorMessage}. Please try converting the PDF to text format or use a Word document instead.`);
-        }
-      }
-      
-      // For other errors, try Gemini as last resort
-      console.log('[INFO] Attempting Gemini API as final fallback...');
-      try {
-        return await extractTextWithGemini(buffer, file.name);
-      } catch (geminiError) {
-        logError('Gemini API final fallback failed', geminiError, {
-          fileInfo,
-          originalError: errorMessage,
-        });
-        
-        throw new Error(`Failed to parse PDF: ${errorMessage}. Please try converting the PDF to text format or use a Word document instead.`);
-      }
-    }
+    return await extractTextWithGemini(buffer, file.name);
   }
 
   // Handle Word documents (.docx)

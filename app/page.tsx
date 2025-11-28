@@ -509,7 +509,7 @@ export default function Home() {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold text-black mb-8">
           ESG Form Automation
-        </h1>
+          </h1>
 
         {/* Progress Steps - Clickable Navigation */}
         <div className="mb-8 bg-white rounded-lg shadow p-4">
@@ -627,8 +627,8 @@ export default function Home() {
                       <span className="text-gray-700 ml-2">
                         ({(selectedFile.size / 1024).toFixed(1)} KB)
                       </span>
-                    </p>
-                  </div>
+          </p>
+        </div>
                 )}
                 <button
                   onClick={handleFileUpload}
@@ -1173,7 +1173,7 @@ export default function Home() {
             </div>
           </div>
         )}
-      </div>
+        </div>
     </div>
   );
 }

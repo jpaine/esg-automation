@@ -69,7 +69,7 @@ Automated ESG Due Diligence Questionnaire (DDQ) and Investment Memo (IM) generat
 - **Frontend**: Next.js 14+ with App Router, TypeScript, Tailwind CSS
 - **Backend**: Next.js API Routes
 - **LLM**: OpenAI GPT-4 or Anthropic Claude
-- **Document Processing**: pdf-parse (primary), Google Gemini API (OCR fallback), mammoth
+- **Document Processing**: Google Gemini API (PDFs - handles both text and image-based), mammoth (Word documents)
 - **Document Generation**: docx library
 
 ## File Structure

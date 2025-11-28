@@ -6,7 +6,8 @@
 - [x] All TypeScript errors resolved
 - [x] vercel.json configured with 60s timeout
 - [x] Environment variables documented
-- [x] Unused dependencies removed (pdfjs-dist)
+- [x] Unused dependencies removed (pdfjs-dist, pdf-parse)
+- [x] Using Gemini API only for PDF parsing (reliable in serverless)
 - [x] File size validation added (4.5MB limit)
 - [x] Environment variable validation added to API routes
 
